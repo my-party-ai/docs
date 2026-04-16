@@ -1,68 +1,89 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "FastParty",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1A6B9A",
+    "light": "#4A9EC4",
+    "dark": "#0D3E5C"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "App",
+        "href": "https://app.fastparty.ai"
+      },
+      {
+        "label": "Support",
+        "href": "mailto:support@fastparty.ai"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started Free",
+      "href": "https://app.fastparty.ai/signup"
+    }
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Docs",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
+              "introduction",
               "quickstart",
-              "development"
+              "platforms"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Core Features",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "features/events",
+              "features/guests",
+              "features/agenda",
+              "features/food-and-beverage",
+              "features/potluck",
+              "features/tasks",
+              "features/circles",
+              "features/antsy-ai"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Account & Settings",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "account/profile",
+              "account/notifications",
+              "account/billing",
+              "account/security"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Troubleshooting",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "troubleshooting/common-issues",
+              "troubleshooting/contact-support"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Claude AI Integration",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Claude AI Integration",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "claude-integration/overview",
+              "claude-integration/connect",
+              "claude-integration/what-you-can-do",
+              "claude-integration/example-prompts",
+              "claude-integration/faq"
             ]
           }
         ]
@@ -71,52 +92,27 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Claude AI Integration",
+          "href": "/claude-integration/overview",
+          "icon": "robot"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "FastParty App",
+          "href": "https://app.fastparty.ai",
+          "icon": "arrow-up-right-from-square"
+        },
+        {
+          "anchor": "Support",
+          "href": "mailto:support@fastparty.ai",
+          "icon": "envelope"
         }
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "instagram": "https://instagram.com/fastpartyai",
+      "linkedin": "https://linkedin.com/company/fastparty"
     }
   }
 }

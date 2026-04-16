@@ -1,0 +1,131 @@
+---
+title: "Common Issues"
+description: "Solutions to the most frequently reported problems."
+---
+
+<AccordionGroup>
+
+  ## App & account
+
+  <Accordion title="Can't log in / forgot password">
+    If you've forgotten your password, click **Forgot password** on the login page. FastParty will email you a reset link — check your inbox and spam folder.
+
+    If you're not receiving the reset email, make sure you're using the same email address you signed up with. If you're still stuck, contact [support@fastparty.ai](mailto:support@fastparty.ai).
+  </Accordion>
+
+  <Accordion title="Not receiving invitation emails">
+    If a guest says they haven't received their invitation:
+
+    1. Ask them to check their spam or junk folder — invitation emails sometimes land there.
+    2. Confirm you entered their email address correctly in FastParty.
+    3. Open the event guest list, find the guest, and click **Resend invitation**.
+
+    If the problem continues, contact [support@fastparty.ai](mailto:support@fastparty.ai) with the guest's email address.
+  </Accordion>
+
+  <Accordion title="App not loading on mobile">
+    Try the following steps:
+
+    1. Close the app fully and reopen it.
+    2. Check your internet connection.
+    3. Force-quit the app and restart your phone.
+    4. Check for an app update in the App Store or Google Play.
+
+    If none of those help, uninstall and reinstall the app. Your data is stored in the cloud, so nothing will be lost.
+  </Accordion>
+
+  ## Events & guests
+
+  <Accordion title="Guest didn't receive their invitation">
+    Open your event, go to the **Guests** tab, and find the guest. Check that their email address is correct. Click **Resend invitation** to send the email again.
+
+    Ask the guest to check spam. Invitation emails are sent from noreply@fastparty.ai — they can add this address to their contacts to prevent future emails going to spam.
+  </Accordion>
+
+  <Accordion title="RSVP link not working for a guest">
+    RSVP links are unique to each guest. If a guest's link isn't working:
+
+    1. Open the guest list and check their email address is correct.
+    2. Resend the invitation — this generates a fresh RSVP link.
+    3. If the issue persists, contact [support@fastparty.ai](mailto:support@fastparty.ai) with the guest's email address.
+  </Accordion>
+
+  <Accordion title="Can't edit an event after publishing">
+    All event fields can be edited at any time, even after the event is confirmed and invitations have been sent. Go to the event settings page and make your changes.
+
+    If you're seeing a specific field that won't save, try refreshing the page and trying again. If the problem continues, contact support.
+  </Accordion>
+
+  ## Antsy (AI concierge)
+
+  <Accordion title="Antsy isn't responding">
+    If Antsy seems frozen or isn't replying:
+
+    1. Wait a few seconds — responses can occasionally take a moment.
+    2. Close the chat and reopen it.
+    3. Check your internet connection.
+    4. Try restarting the app.
+
+    If Antsy is consistently unresponsive, contact [support@fastparty.ai](mailto:support@fastparty.ai).
+  </Accordion>
+
+  <Accordion title="Antsy did something wrong or made an error">
+    Antsy tries its best to understand your request, but occasionally it may misinterpret something. If Antsy created or changed something incorrectly:
+
+    1. Tell Antsy what went wrong: *"That's not right — please delete that event."* or *"Change the date back to July 5th."*
+    2. You can also make changes directly in the FastParty app if it's quicker.
+
+    If Antsy is consistently making errors, let us know at [support@fastparty.ai](mailto:support@fastparty.ai) — your feedback helps improve it.
+  </Accordion>
+
+  <Accordion title="Antsy created the wrong event details">
+    Tell Antsy what to fix in the same conversation:
+
+    > "Change the event name to 'Summer BBQ' and move the date to August 3rd."
+
+    Antsy will make the corrections immediately. You can also edit the event directly from the event settings page.
+  </Accordion>
+
+  ## Claude integration
+
+  <Accordion title="FastParty doesn't appear in the Claude Connector Store">
+    The Connector Store is available to Claude Pro users and above. If you're on the free Claude plan, you'll need to upgrade to access connectors.
+
+    If you're already on Claude Pro and can't find FastParty, try searching for "FastParty" in the store search bar. If it still doesn't appear, contact [support@fastparty.ai](mailto:support@fastparty.ai).
+  </Accordion>
+
+  <Accordion title="Sign-in fails when connecting FastParty to Claude">
+    If the FastParty sign-in window shows an error:
+
+    1. Make sure you're using the correct FastParty email and password.
+    2. Try resetting your FastParty password first, then attempt the connection again.
+    3. Make sure you have a stable internet connection during the authorisation flow.
+
+    If sign-in continues to fail, contact [support@fastparty.ai](mailto:support@fastparty.ai).
+  </Accordion>
+
+  <Accordion title="Claude says it can't access FastParty (401 error)">
+    A 401 error means the connection has expired or been revoked. To fix it:
+
+    1. Go to **Claude Settings → Connectors**.
+    2. Disconnect FastParty.
+    3. Reconnect following the steps in the [connect guide](/claude-integration/connect).
+
+    This re-authorises the connection and should resolve the error.
+  </Accordion>
+
+  <Accordion title="FastParty tools don't appear after connecting">
+    After connecting, try starting a fresh Claude conversation. Tools from newly connected apps sometimes only appear in new conversations, not existing ones.
+
+    You can confirm Claude has access by asking: *"What FastParty tools do you have?"*
+  </Accordion>
+
+  <Accordion title="Actions in Claude aren't reflecting in the FastParty app">
+    Changes made through Claude are applied to your FastParty account in real time. If something isn't showing up:
+
+    1. Refresh the FastParty app or reload the page.
+    2. Check that Claude confirmed the action was completed successfully.
+    3. If Claude reported success but the change isn't appearing, contact [support@fastparty.ai](mailto:support@fastparty.ai) with details of what you asked Claude to do.
+  </Accordion>
+
+</AccordionGroup>

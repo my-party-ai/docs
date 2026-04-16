@@ -1,80 +1,60 @@
 ---
 title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+description: "Get your first event planned in under 5 minutes."
 ---
 
-## Get started in three steps
+This guide walks you through creating your first event and getting it ready for guests.
 
-Get your documentation site running locally and make your first customization.
+<Tip>
+  Already a Claude user? You can do all of this directly inside Claude without opening the FastParty app. See the [Claude Integration](/claude-integration/overview) guide.
+</Tip>
 
-### Step 1: Set up your local environment
+<Steps>
+  <Step title="Sign up or log in">
+    Go to [app.fastparty.ai](https://app.fastparty.ai) or download the iOS or Android app. Create a free account with your email address — no credit card required.
+  </Step>
 
-<AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
-  </Accordion>
-</AccordionGroup>
+  <Step title="Create your first event">
+    Click **New Event** and fill in the basics:
+    - **Event name** — give it a clear, memorable name
+    - **Date and time** — when the event starts
+    - **Location** — optional, but helpful for guests
+    - **Expected guest count** — helps with planning
 
-### Step 2: Deploy your changes
+    Save the event. It starts in **Draft** status, so nothing is shared with guests yet.
+  </Step>
 
-<AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+  <Step title="Invite your guests">
+    Open your event and go to the **Guests** tab. Add guests by name and email address. FastParty sends invitation emails automatically — guests don't need a FastParty account to RSVP.
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
+    You can add guests one at a time, in bulk, or from a saved Circle (a group you've set up for recurring events).
+  </Step>
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
-  </Accordion>
-</AccordionGroup>
+  <Step title="Set up your agenda">
+    Go to the **Agenda** tab and add activities with start times and durations — for example, "Welcome drinks at 6:30 PM, 30 minutes" or "Dinner at 7 PM, 90 minutes."
 
-### Step 3: Go live
+    When you're ready, click **Publish agenda** so guests can see the timeline from their invitation link.
+  </Step>
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
-</Accordion>
+  <Step title="Configure food preferences">
+    Go to the **Food & Beverage** tab and add dietary options relevant to your event — Vegetarian, Vegan, Gluten-Free, Nut Allergy, and so on.
 
-## Next steps
+    Once you enable guest responses, guests can select their preferences from their invitation page. You'll see a summary of all responses in one place.
+  </Step>
 
-Now that you have your docs running, explore these key features:
+  <Step title="Assign tasks">
+    Go to the **Tasks** tab and add items to your pre-event checklist — things like "Book the venue", "Order the cake", or "Buy decorations." Set due dates so nothing slips through the cracks.
 
-<CardGroup cols={2}>
+    Tasks can be assigned to yourself or any co-organiser you've added to the event.
+  </Step>
 
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
-</Card>
+  <Step title="Try Antsy, your AI concierge">
+    Open the **Antsy** chat inside FastParty — it's in the bottom tab bar on mobile, or the chat icon on web. Describe what you need in plain language:
 
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
-</Card>
+    > "Set up a potluck with mains, sides, and desserts — 3 slots each. Then publish it."
 
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
-</Card>
+    Antsy handles the setup for you and confirms what it has done. You can ask follow-up questions or make changes through conversation.
+  </Step>
+</Steps>
 
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
-</Card>
-
-</CardGroup>
-
-<Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
-</Note>
+That's it — your event is live and your guests have everything they need. From here, you can track RSVPs, monitor potluck sign-ups, and check off tasks as the event approaches.

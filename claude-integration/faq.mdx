@@ -1,0 +1,47 @@
+---
+title: "Claude Integration FAQ"
+description: "Common questions about using FastParty in Claude."
+icon: "circle-question"
+---
+
+<AccordionGroup>
+  <Accordion title="Do I need to install anything?">
+    No. The FastParty integration is available directly in the Claude Connector Store — there's nothing to download or install. You just connect through the Claude interface and you're ready to go.
+  </Accordion>
+
+  <Accordion title="Is my FastParty password shared with Claude?">
+    No. You sign in to FastParty through a secure authorisation flow (the same kind used by apps like "Sign in with Google"). Claude never sees your password. FastParty issues a secure token that gives Claude limited access to your account, which you can revoke at any time.
+  </Accordion>
+
+  <Accordion title="What happens if I disconnect FastParty from Claude?">
+    Disconnecting removes Claude's access to your FastParty account. Your FastParty data is completely unaffected — all your events, guests, and history stay exactly as they are. You can reconnect at any time.
+  </Accordion>
+
+  <Accordion title="Does this work on the Claude mobile app?">
+    Yes. Once connected on any device, FastParty is available in all your Claude conversations — including the Claude mobile app on iOS and Android.
+  </Accordion>
+
+  <Accordion title="What Claude plan do I need?">
+    You need a Claude Pro account or higher to use connectors. FastParty in Claude is not available on the free Claude plan.
+  </Accordion>
+
+  <Accordion title="What if Claude says it can't access FastParty?">
+    First, check that the connection is still active: go to **Claude Settings → Connectors** and confirm FastParty shows as connected. If it's disconnected, reconnect it. If it's still connected, try starting a new Claude conversation and asking again. If the issue persists, contact [support@fastparty.ai](mailto:support@fastparty.ai).
+  </Accordion>
+
+  <Accordion title="Can multiple team members connect their own accounts?">
+    Yes. Each person connects their own FastParty account to their own Claude account. The connection is per user, so everyone accesses their own events and data independently.
+  </Accordion>
+
+  <Accordion title="Is the connection always active or do I need to reconnect?">
+    Once connected, it stays connected. You don't need to reconnect each session. In rare cases — such as a password change or security reset — you may need to re-authorise, but this is uncommon.
+  </Accordion>
+
+  <Accordion title="Can Claude delete my events or data?">
+    Claude can only do what you ask it to do. If you ask Claude to delete an event, it will. If you don't, it won't. FastParty never grants Claude permission to act without your instruction.
+  </Accordion>
+
+  <Accordion title="Where is my data stored?">
+    Your FastParty data is stored on FastParty's servers, not in Claude. When you ask Claude to do something with FastParty, Claude sends an instruction to FastParty, FastParty takes the action, and the data lives in your FastParty account. Claude doesn't retain your event data between conversations.
+  </Accordion>
+</AccordionGroup>
