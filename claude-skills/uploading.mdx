@@ -1,0 +1,62 @@
+---
+title: "Uploading skills to Claude.ai"
+description: "How to add FastParty skills to Claude AI one by one using the Skills UI."
+icon: "upload"
+---
+
+Claude.ai does not support uploading an entire folder tree in one action. You add each skill individually through the Skills UI.
+
+<Note>
+  You generally do not need to rename any files while uploading. Keep `SKILL.md` as-is — it is the source of truth for each skill.
+</Note>
+
+## Steps
+
+<Steps>
+  <Step title="Open Claude.ai">
+    Go to [claude.ai](https://claude.ai) and sign in to your account.
+  </Step>
+
+  <Step title="Navigate to the Skills UI">
+    Open **Settings** and select **Skills**, or look for the Skills section in your Claude interface.
+  </Step>
+
+  <Step title="Add a new skill">
+    Click **Add skill** or the equivalent button in the Skills UI.
+  </Step>
+
+  <Step title="Upload the SKILL.md file">
+    For each skill, upload the `SKILL.md` file from its folder in the FastParty skills pack repository.
+  </Step>
+
+  <Step title="Set the skill name">
+    When prompted for a skill name, use the name from the `SKILL.md` frontmatter exactly as written:
+
+    - `fastparty-orchestrator`
+    - `fastparty-event-planning`
+    - `fastparty-registration`
+    - `fastparty-circles`
+    - `fastparty-day-ops`
+
+    Keeping names aligned with the frontmatter ensures the orchestrator can route correctly.
+  </Step>
+
+  <Step title="Repeat for each skill">
+    Repeat steps 3–5 for every skill you want to add. Upload the orchestrator last so all target skills are available when it routes requests.
+  </Step>
+</Steps>
+
+## Which skills to upload
+
+You can upload all five skills, or just the ones relevant to your role:
+
+| If you… | Upload these skills |
+|---|---|
+| Want full FastParty coverage | All five skills |
+| Only manage registrations | `fastparty-orchestrator`, `fastparty-registration` |
+| Only manage circles | `fastparty-orchestrator`, `fastparty-circles` |
+| Handle day-of coordination | `fastparty-orchestrator`, `fastparty-day-ops` |
+
+<Tip>
+  Always include `fastparty-orchestrator` if you're uploading more than one skill. It routes your requests to the right skill automatically.
+</Tip>

@@ -1,0 +1,42 @@
+---
+title: "FastParty Claude Skills Pack"
+description: "A GitHub-ready skill pack that brings FastParty workflows into Claude AI."
+icon: "box"
+---
+
+The FastParty Claude Skills Pack is a collection of Claude skills designed for FastParty workflows. Each skill gives Claude a focused set of instructions and capabilities for a specific part of running events — from initial planning through day-of operations.
+
+The skills pack is hosted on GitHub and can be added to Claude AI using the Skills UI.
+
+## Included skills
+
+| Skill | Role |
+|---|---|
+| `fastparty-orchestrator` | Router — decides which skill handles a given request |
+| `fastparty-event-planning` | Event setup, scheduling, and configuration |
+| `fastparty-registration` | Guest registration and RSVP workflows |
+| `fastparty-circles` | Guest circles and group management |
+| `fastparty-day-ops` | Day-of event operations and coordination |
+
+Each skill folder contains a `SKILL.md` file that defines the runtime contract — what Claude knows and can do when that skill is active. `SKILL.md` is the source of truth for each skill.
+
+## Router priority
+
+When you use the orchestrator skill, it routes your request to the most appropriate skill based on context:
+
+1. **Circle context** → `fastparty-circles`
+2. **Registration workflow** → `fastparty-registration`
+3. **Event-day operations** → `fastparty-day-ops`
+4. **Event planning and setup** → `fastparty-event-planning`
+
+You can also invoke individual skills directly without going through the orchestrator.
+
+## Next step
+
+<Card
+  title="Uploading skills to Claude.ai"
+  icon="upload"
+  href="/claude-skills/uploading"
+>
+  Step-by-step guide to adding FastParty skills to your Claude account.
+</Card>

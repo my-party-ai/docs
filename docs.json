@@ -85,6 +85,13 @@
               "claude-integration/example-prompts",
               "claude-integration/faq"
             ]
+          },
+          {
+            "group": "Claude Skills Pack",
+            "pages": [
+              "claude-skills/overview",
+              "claude-skills/uploading"
+            ]
           }
         ]
       }
