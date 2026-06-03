@@ -47,11 +47,18 @@
             "pages": [
               "features/events",
               "features/guests",
+              "features/registered-events",
               "features/agenda",
               "features/food-and-beverage",
               "features/potluck",
               "features/tasks",
               "features/circles",
+              "features/photos",
+              "features/gifting",
+              "features/guest-eta",
+              "features/check-in",
+              "features/event-folder",
+              "features/arrivals-stays",
               "features/antsy-ai"
             ]
           },
