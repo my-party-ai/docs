@@ -88,10 +88,14 @@ description: "Solutions to the most frequently reported problems."
 
   ## Claude integration
 
-  <Accordion title="Fast Party doesn't appear in the Claude Connector Store">
-    The Connector Store is available to Claude Pro users and above. If you're on the free Claude plan, you'll need to upgrade to access connectors.
+  <Accordion title="I can't find Fast Party in the Claude Connectors panel">
+    Fast Party is added as a **custom connector**, not through the Connector Store. You won't find it by browsing — you need to add it manually:
 
-    If you're already on Claude Pro and can't find Fast Party, try searching for "Fast Party" in the store search bar. If it still doesn't appear, contact [support@fastparty.ai](mailto:support@fastparty.ai).
+    1. Go to **Customize → Connectors** and click the **+** icon.
+    2. Select **Add custom connector**.
+    3. Enter the name `Fast Party` and the URL `https://mcp.fastparty.ai/mcp`, then click **Add**.
+
+    See the full [setup guide](/claude-integration/connect) for screenshots.
   </Accordion>
 
   <Accordion title="Sign-in fails when connecting Fast Party to Claude">
@@ -107,7 +111,7 @@ description: "Solutions to the most frequently reported problems."
   <Accordion title="Claude says it can't access Fast Party (401 error)">
     A 401 error means the connection has expired or been revoked. To fix it:
 
-    1. Go to **Claude Settings → Connectors**.
+    1. Go to **Customize → Connectors**.
     2. Disconnect Fast Party.
     3. Reconnect following the steps in the [connect guide](/claude-integration/connect).
 

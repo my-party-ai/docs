@@ -1,10 +1,10 @@
 ---
 title: "Connecting Fast Party to Claude"
-description: "Add Fast Party to Claude in a few clicks."
+description: "Add Fast Party to Claude as a custom MCP connector in a few clicks."
 icon: "plug"
 ---
 
-Connecting Fast Party to Claude takes about two minutes. You'll do it once, and then Fast Party is available in all your Claude conversations.
+Fast Party connects to Claude as a **custom MCP connector** — not through the Connector Store. You add it once using the Fast Party MCP server URL, and then Fast Party is available in all your Claude conversations.
 
 <Note>
   Fast Party in Claude requires a Claude Pro account or higher. The connection is per user — each person connects their own Fast Party account.
@@ -14,69 +14,72 @@ Connecting Fast Party to Claude takes about two minutes. You'll do it once, and 
 
 <Steps>
   <Step title="Open Claude">
-    Go to [claude.ai](https://claude.ai) or open the Claude app on your device.
+    Go to [claude.ai](https://claude.ai) or open the Claude desktop app. In the left sidebar, click **Customize**.
 
     <Frame>
-      {/* Screenshot placeholder — replace with screenshot of claude.ai home */}
-      <img src="/images/connect-step-1.png" alt="Open Claude" style={{ borderRadius: "8px" }} />
+      <img src="/images/claude-connect/image.png" alt="Claude home — click Customize in the left sidebar" style={{ borderRadius: "8px" }} />
     </Frame>
   </Step>
 
   <Step title="Go to Connectors">
-    Click the connector or plug icon in the Claude interface, or navigate to **Settings → Connectors**.
+    In the Customize panel, select **Connectors** from the left menu.
 
     <Frame>
-      {/* Screenshot placeholder — replace with screenshot of Claude Connectors settings */}
-      <img src="/images/connect-step-2.png" alt="Claude Connectors settings" style={{ borderRadius: "8px" }} />
+      <img src="/images/claude-connect/image2.png" alt="Customize panel — Connectors section" style={{ borderRadius: "8px" }} />
     </Frame>
   </Step>
 
-  <Step title="Find Fast Party">
-    Search for **Fast Party** in the Connector Store. You'll see it listed as an official connector.
+  <Step title="Add Fast Party as a custom connector">
+    Click the **+** icon at the top of the Connectors panel, then select **Add custom connector**.
 
     <Frame>
-      {/* Screenshot placeholder — replace with screenshot of Fast Party in the Connector Store */}
-      <img src="/images/connect-step-3.png" alt="Fast Party in the Connector Store" style={{ borderRadius: "8px" }} />
+      <img src="/images/claude-connect/image3.png" alt="Click + then Add custom connector" style={{ borderRadius: "8px" }} />
+    </Frame>
+
+    In the dialog that appears, enter:
+    - **Name:** `Fast Party`
+    - **URL:** `https://mcp.fastparty.ai/mcp`
+
+    Then click **Add**.
+
+    <Frame>
+      <img src="/images/claude-connect/image4.png" alt="Add custom connector dialog with Fast Party name and MCP URL" style={{ borderRadius: "8px" }} />
     </Frame>
   </Step>
 
   <Step title="Click Connect">
-    Click **Connect** on the Fast Party listing.
+    Fast Party will appear in your Connectors list tagged as **CUSTOM**. Click **Connect** on the Fast Party listing.
 
     <Frame>
-      {/* Screenshot placeholder — replace with screenshot of the Connect button */}
-      <img src="/images/connect-step-4.png" alt="Connect button on Fast Party listing" style={{ borderRadius: "8px" }} />
+      <img src="/images/claude-connect/image5.png" alt="Fast Party CUSTOM connector listed — click Connect" style={{ borderRadius: "8px" }} />
     </Frame>
   </Step>
 
   <Step title="Sign in to Fast Party">
-    A Fast Party sign-in window will appear. Log in with your existing Fast Party email and password. If you don't have an account yet, you can create one at [app.fastparty.ai/signup](https://app.fastparty.ai/signup).
+    A Fast Party sign-in window will open. Log in with your Fast Party account — using Google, Microsoft, phone number, or email. If you don't have an account yet, you can sign up at [app.fastparty.ai/signup](https://app.fastparty.ai/signup).
 
     <Frame>
-      {/* Screenshot placeholder — replace with screenshot of the Fast Party sign-in window */}
-      <img src="/images/connect-step-5.png" alt="Fast Party sign-in window" style={{ borderRadius: "8px" }} />
+      <img src="/images/claude-connect/image6.png" alt="Sign in to Fast Party" style={{ borderRadius: "8px" }} />
     </Frame>
   </Step>
 
-  <Step title="Review and authorise">
-    Fast Party will show you a list of permissions it's requesting. Review them and click **Authorise** to complete the connection.
+  <Step title="Authorise the connection">
+    After signing in, you'll see a confirmation that Fast Party is connected. Click **Open Claude** to return to the app.
 
     <Frame>
-      {/* Screenshot placeholder — replace with screenshot of the permissions/authorise screen */}
-      <img src="/images/connect-step-6.png" alt="Fast Party permissions screen" style={{ borderRadius: "8px" }} />
+      <img src="/images/claude-connect/image7.png" alt="Connected confirmation — click Open Claude" style={{ borderRadius: "8px" }} />
     </Frame>
   </Step>
 
   <Step title="You're connected">
-    You'll be returned to Claude. Fast Party is now active. To confirm it's working, ask Claude:
+    Fast Party is now active in Claude. You'll see it listed under Connectors with its full set of tools. To confirm it's working, ask Claude:
 
     > "What Fast Party tools do you have access to?"
 
-    Claude will list the actions it can take on your behalf.
+    Claude will list all the actions it can take on your behalf.
 
     <Frame>
-      {/* Screenshot placeholder — replace with screenshot of Claude confirming Fast Party is connected */}
-      <img src="/images/connect-step-7.png" alt="Fast Party connected in Claude" style={{ borderRadius: "8px" }} />
+      <img src="/images/claude-connect/image8.png" alt="Fast Party connected — tool permissions visible in Claude" style={{ borderRadius: "8px" }} />
     </Frame>
   </Step>
 </Steps>
@@ -95,6 +98,6 @@ Fast Party only accesses your data when you ask Claude to do something. It doesn
 
 ## Disconnecting
 
-To remove the connection, go to **Claude Settings → Connectors → Fast Party → Disconnect**.
+To remove the connection, go to **Customize → Connectors → Fast Party → Disconnect**.
 
 Disconnecting removes Claude's access to your Fast Party account. Your Fast Party data is never affected — everything stays intact in Fast Party.
