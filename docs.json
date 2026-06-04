@@ -32,59 +32,98 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Getting Started",
+        "groups": [
+          { "group": "Welcome", "pages": ["introduction"] }
+        ]
+      },
+      {
+        "tab": "Walk-thru Videos",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Walk-thru Videos",
             "pages": [
-              "introduction",
-              "quickstart",
-              "platforms"
-            ]
-          },
-          {
-            "group": "Core Features",
-            "pages": [
-              "features/events",
-              "features/guests",
-              "features/registered-events",
-              "features/agenda",
-              "features/food-and-beverage",
-              "features/potluck",
-              "features/tasks",
-              "features/circles",
-              "features/photos",
-              "features/gifting",
-              "features/guest-eta",
-              "features/check-in",
-              "features/event-folder",
-              "features/arrivals-stays",
-              "features/antsy-ai"
-            ]
-          },
-          {
-            "group": "Account & Settings",
-            "pages": [
-              "account/profile",
-              "account/notifications",
-              "account/billing",
-              "account/security"
-            ]
-          },
-          {
-            "group": "Troubleshooting",
-            "pages": [
-              "troubleshooting/common-issues",
-              "troubleshooting/contact-support"
+              "walkthrough-videos/private-events",
+              "walkthrough-videos/registered-events",
+              "walkthrough-videos/recurring-events",
+              "walkthrough-videos/vendors"
             ]
           }
         ]
       },
       {
-        "tab": "Claude AI Integration",
+        "tab": "Private Events",
         "groups": [
           {
-            "group": "Claude AI Integration",
+            "group": "Explore Features — Private Event",
+            "pages": [
+              "private-events/event-creation",
+              "private-events/guests-rsvp",
+              "private-events/event-links",
+              "private-events/activity-feed",
+              "private-events/event-schedule",
+              "private-events/food-beverage",
+              "private-events/tasks",
+              "private-events/potluck",
+              "private-events/guest-eta",
+              "private-events/self-check-in",
+              "private-events/gifting",
+              "private-events/photos",
+              "private-events/travel-stay",
+              "private-events/event-folder",
+              "private-events/feedback-corner",
+              "private-events/event-dashboard"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Public Events",
+        "groups": [
+          {
+            "group": "Explore Features — Public Event",
+            "pages": [
+              "public-events/event-creation",
+              "public-events/registration-management",
+              "public-events/event-links",
+              "public-events/activity-feed",
+              "public-events/event-schedule",
+              "public-events/food-beverage",
+              "public-events/tasks",
+              "public-events/registrant-check-in",
+              "public-events/gifting",
+              "public-events/photos",
+              "public-events/travel-stay",
+              "public-events/event-folder",
+              "public-events/feedback-corner",
+              "public-events/event-dashboard"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Recurring Events",
+        "groups": [
+          {
+            "group": "Manage Recurring Events via My Circles",
+            "pages": ["recurring-events/overview"]
+          }
+        ]
+      },
+      {
+        "tab": "Vendors",
+        "groups": [
+          {
+            "group": "Add and Manage Vendors",
+            "pages": ["vendors/overview"]
+          }
+        ]
+      },
+      {
+        "tab": "Claude AI",
+        "groups": [
+          {
+            "group": "Configure & Use Fast Party via Claude",
             "pages": [
               "claude-integration/overview",
               "claude-integration/connect",
@@ -99,6 +138,30 @@
               "claude-skills/overview",
               "claude-skills/uploading"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "ChatGPT",
+        "groups": [
+          {
+            "group": "Configure & Use Fast Party via ChatGPT",
+            "pages": ["chatgpt-integration/setup"]
+          }
+        ]
+      },
+      {
+        "tab": "Get the App",
+        "groups": [
+          { "group": "Available Platforms", "pages": ["platforms"] }
+        ]
+      },
+      {
+        "tab": "Data Migration",
+        "groups": [
+          {
+            "group": "Data Migration Service",
+            "pages": ["data-migration"]
           }
         ]
       }
