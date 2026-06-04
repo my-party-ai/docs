@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "FastParty",
+  "name": "Fast Party",
   "colors": {
     "primary": "#1A6B9A",
     "light": "#4A9EC4",
@@ -52,6 +52,30 @@
         ]
       },
       {
+        "tab": "Public Events",
+        "groups": [
+          {
+            "group": "Explore Features — Public Event",
+            "pages": [
+              "public-events/event-creation",
+              "public-events/registration-management",
+              "public-events/event-links",
+              "public-events/activity-feed",
+              "public-events/event-schedule",
+              "public-events/food-beverage",
+              "public-events/tasks",
+              "public-events/registrant-check-in",
+              "public-events/gifting",
+              "public-events/photos",
+              "public-events/travel-stay",
+              "public-events/event-folder",
+              "public-events/feedback-corner",
+              "public-events/event-dashboard"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Private Events",
         "groups": [
           {
@@ -78,44 +102,11 @@
         ]
       },
       {
-        "tab": "Public Events",
-        "groups": [
-          {
-            "group": "Explore Features — Public Event",
-            "pages": [
-              "public-events/event-creation",
-              "public-events/registration-management",
-              "public-events/event-links",
-              "public-events/activity-feed",
-              "public-events/event-schedule",
-              "public-events/food-beverage",
-              "public-events/tasks",
-              "public-events/registrant-check-in",
-              "public-events/gifting",
-              "public-events/photos",
-              "public-events/travel-stay",
-              "public-events/event-folder",
-              "public-events/feedback-corner",
-              "public-events/event-dashboard"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Recurring Events",
         "groups": [
           {
             "group": "Manage Recurring Events via My Circles",
             "pages": ["recurring-events/overview"]
-          }
-        ]
-      },
-      {
-        "tab": "Vendors",
-        "groups": [
-          {
-            "group": "Add and Manage Vendors",
-            "pages": ["vendors/overview"]
           }
         ]
       },
@@ -157,6 +148,15 @@
         ]
       },
       {
+        "tab": "Vendors",
+        "groups": [
+          {
+            "group": "Add and Manage Vendors",
+            "pages": ["vendors/overview"]
+          }
+        ]
+      },
+      {
         "tab": "Data Migration",
         "groups": [
           {
@@ -174,7 +174,7 @@
           "icon": "robot"
         },
         {
-          "anchor": "FastParty App",
+          "anchor": "Fast Party App",
           "href": "https://app.fastparty.ai",
           "icon": "arrow-up-right-from-square"
         },
