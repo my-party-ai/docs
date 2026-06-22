@@ -52,10 +52,10 @@
         ]
       },
       {
-        "tab": "Public Events",
+        "tab": "Registered Events",
         "groups": [
           {
-            "group": "Explore Features — Public Event",
+            "group": "Explore Features — Registered Event",
             "pages": [
               "public-events/event-creation",
               "public-events/registration-management",
@@ -76,10 +76,10 @@
         ]
       },
       {
-        "tab": "Private Events",
+        "tab": "Regular Events",
         "groups": [
           {
-            "group": "Explore Features — Private Event",
+            "group": "Explore Features — Regular Event",
             "pages": [
               "private-events/event-creation",
               "private-events/guests-rsvp",
@@ -102,7 +102,7 @@
         ]
       },
       {
-        "tab": "Recurring Events",
+        "tab": "Recurring Events & My Circles",
         "groups": [
           {
             "group": "Manage Recurring Events via My Circles",
