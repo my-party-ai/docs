@@ -1,36 +1,120 @@
 ---
-title: "Configure & Use Fast Party via ChatGPT"
-description: "Connect Fast Party to ChatGPT and manage your events through natural conversation."
+title: "Connecting Fast Party to ChatGPT"
+description: "Add Fast Party to ChatGPT as a custom MCP app and manage your events through conversation."
 icon: "robot"
 ---
 
-Fast Party connects to ChatGPT through our MCP server. Once configured, you can manage your entire Fast Party account through conversation — create events, invite guests, build agendas, assign tasks, and more — without opening the app.
-
-<Frame>
-  {/* Screenshot placeholder — replace with actual product screenshot */}
-  <img src="/images/placeholder.png" alt="Fast Party ChatGPT connector screenshot" style={{ borderRadius: "8px" }} />
-</Frame>
+Fast Party connects to ChatGPT as a **custom MCP app**. You add it once using the Fast Party MCP server URL, sign in with your Fast Party account, and then manage events directly from ChatGPT.
 
 <Note>
-  Detailed setup instructions coming soon. For Claude setup, see [Configure & Use Fast Party via Claude](/claude-integration/connect).
+  Custom MCP apps in ChatGPT require developer mode. The connection is per user — each person connects their own Fast Party account.
 </Note>
 
-## Setup steps
+## Steps to connect
 
 <Steps>
   <Step title="Open ChatGPT settings">
-    Go to your ChatGPT account settings and navigate to the integrations or connectors section.
+    Go to [chatgpt.com](https://chatgpt.com) and sign in. Click your profile name in the bottom-left corner of the sidebar, then select **Settings**.
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image1.png" alt="ChatGPT sidebar — open profile menu and click Settings" style={{ borderRadius: "8px" }} />
+    </Frame>
   </Step>
-  <Step title="Find the Fast Party connector">
-    Search for Fast Party in the connector marketplace or integrations list.
+
+  <Step title="Go to Apps">
+    In the Settings modal, select **Apps** from the left menu.
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image2.png" alt="ChatGPT Settings — Apps section in the sidebar" style={{ borderRadius: "8px" }} />
+    </Frame>
   </Step>
-  <Step title="Connect your account">
-    Follow the prompts to authorise Fast Party to connect to your ChatGPT account.
+
+  <Step title="Create the Fast Party app">
+    Under **Enabled apps**, find **Advanced settings** and click **Create app**.
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image3.png" alt="App Preferences — click Create app under Advanced settings" style={{ borderRadius: "8px" }} />
+    </Frame>
+
+    In the **New App** dialog, enter:
+    - **Name:** `FastParty`
+    - **Connection type:** Server URL
+    - **URL:** `https://chat.fastparty.ai/mcp`
+    - **Authentication:** OAuth
+
+    Check **I understand and want to continue**, then click **Create**.
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image4.png" alt="New App dialog with FastParty name, MCP URL, and OAuth authentication" style={{ borderRadius: "8px" }} />
+    </Frame>
   </Step>
-  <Step title="Start managing events through conversation">
-    Once connected, ask ChatGPT to create events, invite guests, set up agendas, and more.
+
+  <Step title="Click Connect">
+    Fast Party appears in your apps list. Open it and click **Connect**.
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image5.png" alt="FastParty app details — click Connect" style={{ borderRadius: "8px" }} />
+    </Frame>
+  </Step>
+
+  <Step title="Sign in with Fast Party">
+    An **Add FastParty to ChatGPT** window opens. Click **Sign in with FastParty** to authorise the connection.
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image6.png" alt="Add FastParty to ChatGPT — click Sign in with FastParty" style={{ borderRadius: "8px" }} />
+    </Frame>
+  </Step>
+
+  <Step title="Log in to your Fast Party account">
+    Sign in with your Fast Party account — using Google, Microsoft, phone number, or email. If you don't have an account yet, you can sign up at [app.fastparty.ai/signup](https://app.fastparty.ai/signup).
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image7.png" alt="Sign in to Fast Party with phone number or email" style={{ borderRadius: "8px" }} />
+    </Frame>
+  </Step>
+
+  <Step title="Verify your phone">
+    If you sign in with a phone number, enter the 6-digit code sent to your phone, then click **Continue**.
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image8.png" alt="Check your phone — enter the verification code" style={{ borderRadius: "8px" }} />
+    </Frame>
+  </Step>
+
+  <Step title="You're connected">
+    Fast Party is now connected to ChatGPT. In **Settings → Apps**, you can see the connection details and manage permissions. Click **Refresh** if the connection status doesn't update right away.
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image9.png" alt="FastParty connected — app preferences and connection details" style={{ borderRadius: "8px" }} />
+    </Frame>
+  </Step>
+
+  <Step title="Use Fast Party in a chat">
+    Start a new chat. Click the **+** icon in the message bar, select **More**, then choose **FastParty**. Fast Party appears in the composer and is ready to use.
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image10.png" alt="Message bar — click + then More and select FastParty" style={{ borderRadius: "8px" }} />
+    </Frame>
+
+    With Fast Party selected, ask ChatGPT to manage your events — for example, "What events do I have coming up?" or "Create a dinner party for next Friday."
+
+    <Frame>
+      <img src="/images/chatgpt-connect/image11.png" alt="FastParty selected in the ChatGPT message composer" style={{ borderRadius: "8px" }} />
+    </Frame>
   </Step>
 </Steps>
+
+## What permissions are requested?
+
+When you connect Fast Party to ChatGPT, you're giving ChatGPT the ability to:
+
+- Create and update your events
+- Add guests and send invitations
+- View RSVP statuses
+- Set up agendas, tasks, food preferences, and potlucks
+- Create and manage guest circles
+
+Fast Party only accesses your data when you ask ChatGPT to do something. It doesn't run in the background or make changes without your instruction.
 
 ## What you can do via ChatGPT
 
@@ -56,3 +140,9 @@ The same Fast Party capabilities available through Claude are available through 
 > "Set up a conference agenda: registration at 9 AM, keynote at 10, lunch at 12:30, workshops at 2 PM."
 
 > "Approve all pending registrations for my charity gala."
+
+## Disconnecting
+
+To remove the connection, go to **Settings → Apps**, open Fast Party, and disconnect the app.
+
+Disconnecting removes ChatGPT's access to your Fast Party account. Your Fast Party data is never affected — everything stays intact in Fast Party.
