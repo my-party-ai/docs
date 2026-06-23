@@ -168,23 +168,7 @@
       }
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Claude AI Integration",
-          "href": "/claude-integration/overview",
-          "icon": "robot"
-        },
-        {
-          "anchor": "Fast Party App",
-          "href": "https://app.fastparty.ai",
-          "icon": "arrow-up-right-from-square"
-        },
-        {
-          "anchor": "Support",
-          "href": "mailto:support@fastparty.ai",
-          "icon": "envelope"
-        }
-      ]
+      "anchors": []
     }
   },
   "footer": {
