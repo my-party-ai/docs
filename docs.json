@@ -52,30 +52,6 @@
         ]
       },
       {
-        "tab": "Registered Events",
-        "groups": [
-          {
-            "group": "Explore Features — Registered Event",
-            "pages": [
-              "public-events/event-creation",
-              "public-events/registration-management",
-              "public-events/event-links",
-              "public-events/activity-feed",
-              "public-events/event-schedule",
-              "public-events/food-beverage",
-              "public-events/tasks",
-              "public-events/registrant-check-in",
-              "public-events/gifting",
-              "public-events/photos",
-              "public-events/travel-stay",
-              "public-events/event-folder",
-              "public-events/feedback-corner",
-              "public-events/event-dashboard"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Regular Events",
         "groups": [
           {
@@ -96,7 +72,32 @@
               "private-events/travel-stay",
               "private-events/event-folder",
               "private-events/feedback-corner",
+              "private-events/event-lineup",
               "private-events/event-dashboard"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Registered Events",
+        "groups": [
+          {
+            "group": "Explore Features — Registered Event",
+            "pages": [
+              "public-events/event-creation",
+              "public-events/registration-management",
+              "public-events/event-links",
+              "public-events/activity-feed",
+              "public-events/event-schedule",
+              "public-events/food-beverage",
+              "public-events/tasks",
+              "public-events/registrant-check-in",
+              "public-events/gifting",
+              "public-events/photos",
+              "public-events/travel-stay",
+              "public-events/event-folder",
+              "public-events/feedback-corner",
+              "public-events/event-dashboard"
             ]
           }
         ]
