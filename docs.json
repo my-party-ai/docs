@@ -97,6 +97,15 @@
         ]
       },
       {
+        "tab": "Antsy AI",
+        "groups": [
+          {
+            "group": "Antsy AI",
+            "pages": ["features/antsy-ai"]
+          }
+        ]
+      },
+      {
         "tab": "Claude AI",
         "groups": [
           {
