@@ -1,27 +1,22 @@
 ---
 title: "Add and Manage Vendors"
-description: "Add business and service providers to your event as vendors, assign them tasks, and check them in."
-icon: "store"
+description: "Add the businesses and service providers working your event, assign them tasks, and check them in."
 ---
 
-Vendors are business or service providers — caterers, photographers, AV companies, florists — that you add to your event alongside your guest list. They get their own view with assigned tasks and event details.
+Vendors are the businesses and service providers working your event — caterers, photographers, AV companies, florists, decorators, transport, security, and more. You add them to your event alongside your guest list, and each vendor gets their own focused view with the tasks assigned to them and the event details they need.
 
-<Note>This page will be updated shortly.</Note>
+<Note>
+  Vendors are not guests. They don't appear on the guest list and don't go through the RSVP or registration flow. They have their own lightweight experience built around the work they're doing for you.
+</Note>
 
-export const _hidden = `
-<Frame>
-  <img src="/assets/Circle/vendor-management-2.png" alt="Vendor Management screenshot" style={{ borderRadius: "8px" }} />
-</Frame>
+## What a vendor can do
 
-## What vendors can do
+Once a vendor accepts your request to join an event, they can:
 
-Once added to an event, a vendor can:
-
-- View the event details relevant to their role
-- See tasks assigned to them
-- Check in at the event through their own view
-
-Vendors do not appear on the guest list and do not go through the RSVP or registration flow.
+* See the event details relevant to their role
+* View the tasks you've assigned to them
+* Mark their tasks complete as they work through them
+* Check in when they arrive at the venue, through their own check-in view
 
 ## Adding a vendor to an event
 
@@ -29,36 +24,46 @@ Vendors do not appear on the guest list and do not go through the RSVP or regist
   <Step title="Open your event">
     Go to the event you want to add a vendor to.
   </Step>
-  <Step title="Go to Vendors">
-    Open the Vendors section of your event.
+
+  <Step title="Go to the Vendors section">
+    Open the Vendors tab for the event.
   </Step>
-  <Step title="Add vendor details">
-    Enter the vendor's business name and contact details.
+
+  <Step title="Add the vendor's details">
+    Enter the vendor's business name and contact details — the basics you need to coordinate with them for this event.
   </Step>
-  <Step title="Save">
-    The vendor is added to your event.
+
+  <Step title="Send the request">
+    Save to send the vendor a request to join the event. They appear in your Vendors list with a **pending** status until they respond.
+  </Step>
+
+  <Step title="The vendor accepts">
+    The vendor receives the request and must **accept** it to become a vendor for the event. Once they accept, they're active — they can see their event details, receive task assignments, and check in on the day.
   </Step>
 </Steps>
 
+<Note>
+  A vendor isn't active on your event until they accept your request. Until then they show as pending, and they won't yet see the event details or receive task assignments.
+</Note>
+
 ## Assigning tasks to vendors
 
-Tasks can be assigned to vendors just like they can be assigned to co-hosts. When you create or edit a task, select the vendor as the assignee. The vendor sees their assigned tasks in their vendor view.
+Tasks can be assigned to vendors just as they can to others. When you create or edit a task, choose the vendor as the assignee. The vendor sees their assigned tasks in their own view, along with due dates and any notes you've added.
 
-This is useful for coordinating pre-event delivery, setup, and breakdown responsibilities with your service providers.
+This is how you coordinate the practical work with each provider — delivery windows, setup and breakdown, what's expected and when — all tracked inside Fast Party instead of scattered across calls and messages.
+
+<Tip>
+  Use task notes to send a vendor their brief directly — delivery instructions, setup requirements, the spot they're working from — so everything they need is attached to the task itself.
+</Tip>
 
 ## Vendor check-in
 
-On the day of the event, vendors can be checked in through the vendor check-in flow — separate from the guest check-in process. This lets you track which vendors have arrived and are on-site.
+On the day of the event, vendors check in through their own check-in flow — separate from guest check-in. This lets you see at a glance which vendors have arrived and are on-site, so you know your caterer, photographer, and AV team are all in place without chasing each one.
 
-## Business profile setup
+## Vendor business profile
 
-To receive vendor assignments and access their task list, a vendor needs a business profile set up in Fast Party (via /business/setup). Once their profile is active, they can be added to events and access their vendor view.
+To receive their assignments and access their task list, a vendor needs a business profile in Fast Party. Once their profile is set up, they can be added to your events and access their vendor view.
 
 <Note>
-  Vendors access their assigned tasks and check-in through their own dedicated view, separate from the host and guest experience.
+  Vendors access their assigned tasks and check in through their own dedicated view, separate from the host and guest experience. They only see what's relevant to their work on the event.
 </Note>
-
-<Tip>
-  Use vendor task assignment to send briefings, delivery instructions, and setup requirements directly through Fast Party — keeping all event coordination in one place.
-</Tip>
-`

@@ -34,7 +34,7 @@
       {
         "tab": "Getting Started",
         "groups": [
-          { "group": "Welcome", "pages": ["introduction"] }
+          { "group": "Welcome", "pages": ["index"] }
         ]
       },
       {
