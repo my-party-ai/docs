@@ -34,7 +34,24 @@
       {
         "tab": "Getting Started",
         "groups": [
-          { "group": "Welcome", "pages": ["index"] }
+          {
+            "group": "Welcome",
+            "pages": [
+              "index",
+              "get-started/how-it-works",
+              "get-started/quickstart",
+              "platforms"
+            ]
+          },
+          {
+            "group": "Guides by Organization Type",
+            "pages": [
+              "get-started/reunion",
+              "get-started/coterie",
+              "get-started/jubila",
+              "get-started/belvedere"
+            ]
+          }
         ]
       },
       {
@@ -134,12 +151,6 @@
             "group": "Configure & Use Fast Party via ChatGPT",
             "pages": ["chatgpt-integration/setup"]
           }
-        ]
-      },
-      {
-        "tab": "Get the App",
-        "groups": [
-          { "group": "Available Platforms", "pages": ["platforms"] }
         ]
       },
       {
