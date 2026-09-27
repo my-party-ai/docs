@@ -32,87 +32,43 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Getting Started",
-        "groups": [
-          { "group": "Welcome", "pages": ["index"] }
-        ]
-      },
-      {
-        "tab": "Walk-thru Videos",
+        "tab": "Get Started",
         "groups": [
           {
-            "group": "Walk-thru Videos",
+            "group": "Welcome",
             "pages": [
-              "walkthrough-videos/private-events",
-              "walkthrough-videos/registered-events",
-              "walkthrough-videos/recurring-events",
-              "walkthrough-videos/vendors"
+              "index",
+              "get-started/how-it-works",
+              "get-started/quickstart",
+              "platforms"
+            ]
+          },
+          {
+            "group": "Guides by Organization Type",
+            "pages": [
+              "get-started/reunion",
+              "get-started/coterie",
+              "get-started/jubila",
+              "get-started/belvedere"
             ]
           }
         ]
       },
       {
-        "tab": "Regular Events",
+        "tab": "Antsy & AI",
         "groups": [
           {
-            "group": "Explore Features — Regular Event",
+            "group": "Antsy",
             "pages": [
-              "private-events/event-creation",
-              "private-events/guests-rsvp",
-              "private-events/event-links",
-              "private-events/activity-feed",
-              "private-events/event-schedule",
-              "private-events/food-beverage",
-              "private-events/tasks",
-              "private-events/potluck",
-              "private-events/guest-eta",
-              "private-events/self-check-in",
-              "private-events/gifting",
-              "private-events/photos",
-              "private-events/travel-stay",
-              "private-events/event-folder",
-              "private-events/feedback-corner",
-              "private-events/event-lineup",
-              "private-events/event-dashboard"
+              "features/antsy-ai"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Registered Events",
-        "groups": [
+          },
           {
-            "group": "Registered Events",
-            "pages": ["public-events/overview"]
-          }
-        ]
-      },
-      {
-        "tab": "Recurring Events & My Circles",
-        "groups": [
-          {
-            "group": "Manage Recurring Events via My Circles",
-            "pages": ["recurring-events/overview"]
-          }
-        ]
-      },
-      {
-        "tab": "Antsy AI",
-        "groups": [
-          {
-            "group": "Antsy AI",
-            "pages": ["features/antsy-ai"]
-          }
-        ]
-      },
-      {
-        "tab": "Claude AI",
-        "groups": [
-          {
-            "group": "Configure & Use Fast Party via Claude",
+            "group": "Plan with AI",
             "pages": [
               "claude-integration/overview",
               "claude-integration/connect",
+              "chatgpt-integration/setup",
               "claude-integration/what-you-can-do",
               "claude-integration/example-prompts",
               "claude-integration/faq"
@@ -128,35 +84,112 @@
         ]
       },
       {
-        "tab": "ChatGPT",
+        "tab": "Events",
         "groups": [
           {
-            "group": "Configure & Use Fast Party via ChatGPT",
-            "pages": ["chatgpt-integration/setup"]
+            "group": "RSVP Events",
+            "pages": [
+              "private-events/event-creation",
+              "private-events/guests-rsvp"
+            ]
+          },
+          {
+            "group": "Registration Events",
+            "pages": [
+              "public-events/overview",
+              "public-events/registration-management",
+              "public-events/registrant-check-in"
+            ]
+          },
+          {
+            "group": "Open Events",
+            "pages": [
+              "events/open-events"
+            ]
+          },
+          {
+            "group": "Your Event Page",
+            "pages": [
+              "events/banner-and-templates",
+              "private-events/event-links"
+            ]
+          },
+          {
+            "group": "Run Your Event",
+            "pages": [
+              "private-events/event-dashboard"
+            ]
+          },
+          {
+            "group": "Event Tools",
+            "pages": [
+              "events/event-tools",
+              {
+                "group": "For Guests to Read",
+                "icon": "book-open",
+                "pages": [
+                  "private-events/event-schedule",
+                  "private-events/event-lineup",
+                  "private-events/event-folder"
+                ]
+              },
+              {
+                "group": "Things You Ask Your Guests",
+                "icon": "clipboard-question",
+                "pages": [
+                  "private-events/food-beverage",
+                  "private-events/travel-stay",
+                  "private-events/gifting",
+                  "private-events/potluck"
+                ]
+              },
+              {
+                "group": "On the Day, and After",
+                "icon": "calendar-check",
+                "pages": [
+                  "private-events/self-check-in",
+                  "private-events/guest-eta",
+                  "private-events/photos",
+                  "private-events/feedback-corner"
+                ]
+              },
+              {
+                "group": "For Running the Event",
+                "icon": "list-check",
+                "pages": [
+                  "private-events/tasks"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Vendors",
+            "pages": [
+              "vendors/overview"
+            ]
           }
         ]
       },
       {
-        "tab": "Get the App",
-        "groups": [
-          { "group": "Available Platforms", "pages": ["platforms"] }
-        ]
-      },
-      {
-        "tab": "Vendors",
+        "tab": "Circles & Organizations",
         "groups": [
           {
-            "group": "Add and Manage Vendors",
-            "pages": ["vendors/overview"]
-          }
-        ]
-      },
-      {
-        "tab": "Data Migration",
-        "groups": [
+            "group": "Organizations",
+            "pages": [
+              "organizations/overview",
+              "organizations/setup",
+              "organizations/admins-and-managers",
+              "organizations/circles-and-events",
+              "organizations/dashboard",
+              "organizations/broadcasts",
+              "data-migration"
+            ]
+          },
           {
-            "group": "Data Migration Service",
-            "pages": ["data-migration"]
+            "group": "Circles",
+            "pages": [
+              "recurring-events/overview"
+            ]
           }
         ]
       }

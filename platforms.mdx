@@ -1,50 +1,116 @@
 ---
-title: "Get the App"
-description: "Download Fast Party on iOS, Android, or use it on the web."
+title: "Get the App & Connect Your AI"
+description: "Use Fast Party on the web, on iOS and Android, and connect it to Claude or ChatGPT. One account, everywhere."
+icon: "mobile"
+sidebarTitle: "Get the App & Connect"
 ---
 
-Fast Party works wherever you are. Use the web app from any browser, the mobile app on your phone, or manage your events directly from Claude — no app required.
+Fast Party works on the web, on your phone, and inside the AI assistant you already use. It's one account everywhere, so an event you create on your phone is instantly on the web and in Claude.
 
-## Web app
+## Get the app
 
-Go to [app.fastparty.ai](https://app.fastparty.ai) in any modern browser. No installation needed. The full Fast Party feature set is available on web, including Antsy, the AI concierge.
+### Web
 
-## iOS
+Go to [app.fastparty.ai](https://app.fastparty.ai) in any modern browser. There's nothing to install, and every feature is available. The [Event Dashboard](/private-events/event-dashboard), where you run your events, opens in a laptop or tablet browser.
 
-Download Fast Party from the App Store:
+### Mobile
 
-<Card
-  title="Download on the App Store"
-  icon="apple"
-  href="https://apps.apple.com/app/fastparty"
->
-  Available on iPhone and iPad running iOS 16 or later.
-</Card>
+<CardGroup cols={2}>
+  <Card title="Download on the App Store" icon="apple" href="https://apps.apple.com/in/app/fast-party/id6748051479">
+    Fast Party for iPhone.
+  </Card>
 
-## Android
+  <Card title="Get it on Google Play" icon="android" href="https://play.google.com/store/apps/details?id=ai.fastparty.mobile">
+    Fast Party for Android.
+  </Card>
+</CardGroup>
 
-Download Fast Party from Google Play:
+### Guests don't need the app
 
-<Card
-  title="Get it on Google Play"
-  icon="android"
-  href="https://play.google.com/store/apps/fastparty"
->
-  Available on Android 10 or later.
-</Card>
+Guests and attendees receive a link by WhatsApp, SMS or email. They can RSVP, register, pay and check in from that link in any browser. To open the full Event Page, they sign up for a free Fast Party account.
 
-## Claude AI
+## Connect your AI
 
-Fast Party is available as an official connector in the Claude Connector Store. Once connected, you can create events, invite guests, manage agendas, and more — directly from Claude, without opening the Fast Party app.
+Fast Party runs an MCP server with 250+ tools. Add it once as a **custom connector** in Claude or ChatGPT, and your AI can create and update events, invite guests, build schedules and answer questions about your own data. It isn't listed in a connector store, so use the steps below.
 
-<Card
-  title="Set up the Claude integration"
-  icon="robot"
-  href="/claude-integration/overview"
->
-  Manage your events from inside Claude AI.
-</Card>
+You'll need a Fast Party account first. The connector signs you in with that same account, so nothing is copied anywhere else.
+
+<Tabs>
+  <Tab title="Claude">
+    **Requires Claude Pro or higher.** Each person connects their own Fast Party account.
+
+    **The easy way: connect from inside Fast Party**
+
+    <Steps>
+      <Step title="Log in to Fast Party">
+        Sign in at [app.fastparty.ai](https://app.fastparty.ai).
+      </Step>
+      <Step title="Click Connect with Claude">
+        Click the **Connect with Claude** button in the top-right corner of any page. Fast Party is added to your Claude account and connected. There's no URL to copy.
+      </Step>
+    </Steps>
+
+    **Or add it by hand in Claude:**
+
+    <Steps>
+      <Step title="Open Connectors">
+        In [claude.ai](https://claude.ai) or the Claude desktop app, click **Customize**, then **Connectors**.
+      </Step>
+      <Step title="Add a custom connector">
+        Click **\+**, then **Add custom connector**. Enter:
+
+        - **Name:** `Fast Party`
+        - **URL:** `https://mcp.fastparty.ai/mcp`
+
+        Click **Add**.
+      </Step>
+      <Step title="Connect and sign in">
+        Click **Connect** on the Fast Party listing, then sign in with your Fast Party account.
+      </Step>
+    </Steps>
+
+    [Full Claude guide with screenshots →](/claude-integration/connect)
+  </Tab>
+  <Tab title="ChatGPT">
+    **Requires a paid ChatGPT plan, on the web, with developer mode turned on** (ChatGPT only allows custom apps in developer mode). There's no one-click button for ChatGPT yet, so set it up by hand:
+
+    <Steps>
+      <Step title="Create an app">
+        In ChatGPT, go to **Settings**, then **Apps**. Under **Advanced settings**, click **Create app**.
+      </Step>
+      <Step title="Enter the connection details">
+        - **Name:** `FastParty`
+        - **Connection type:** Server URL
+        - **URL:** `https://chat.fastparty.ai/mcp`
+        - **Authentication:** OAuth
+
+        Check **I understand and want to continue**, then click **Create**.
+      </Step>
+      <Step title="Connect and sign in">
+        Click **Connect** and sign in with your Fast Party account. In any chat, pick Fast Party from **\+**, then **More**.
+      </Step>
+    </Steps>
+
+    [Full ChatGPT guide with screenshots →](/chatgpt-integration/setup)
+  </Tab>
+</Tabs>
+
+### Check it worked
+
+Ask your AI: **"What Fast Party tools do you have access to?"** It should list them. Then just ask, for example:
+
+> "Create a birthday dinner for my daughter on 5 July at 7 pm, 20 guests at our house."
+
+### Your data, your permissions
+
+- **Nobody gets more access through AI** than they already have in Fast Party. If you can't see something in the app, your AI can't either.
+- **You stay in control.** Review and approve actions when asked, and disconnect at any time from your AI's connector settings. Your Fast Party data stays intact.
+- **Fast Party never trains AI models on your event data**, and never sells or shares it for marketing.
+
+<Note>
+  Stuck? Email [contact@fastparty.ai](mailto:contact@fastparty.ai) and we'll set it up with you.
+</Note>
 
 ## Everything stays in sync
 
-All platforms share the same account. An event you create on your phone is instantly available on the web app and in Claude. RSVP updates, potluck sign-ups, and task changes appear everywhere in real time.
+RSVPs, registrations, potluck sign-ups and task changes appear everywhere in real time, whether they were made in the app, on the web or through your AI.

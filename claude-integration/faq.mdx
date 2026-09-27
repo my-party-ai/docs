@@ -1,47 +1,56 @@
 ---
-title: "Claude Integration FAQ"
-description: "Common questions about using Fast Party in Claude."
+title: "Plan with AI: FAQ"
+description: "Common questions about using Fast Party with Claude and ChatGPT."
 icon: "circle-question"
+sidebarTitle: "FAQ"
 ---
 
 <AccordionGroup>
   <Accordion title="Do I need to install anything?">
-    No. Fast Party connects to Claude as a custom MCP connector — there's nothing to download or install. You add it once through the Claude Connectors panel using the Fast Party MCP URL (`https://mcp.fastparty.ai/mcp`) and you're ready to go. See the [setup guide](/claude-integration/connect) for step-by-step instructions.
+    No. For Claude, log in to Fast Party and click **Connect with Claude** in the top-right corner of any page. For ChatGPT, add Fast Party once as a custom app using the server URL. See [Connect Claude](/claude-integration/connect) and [Connect ChatGPT](/chatgpt-integration/setup).
   </Accordion>
 
-  <Accordion title="Is my Fast Party password shared with Claude?">
-    No. You sign in to Fast Party through a secure authorisation flow (the same kind used by apps like "Sign in with Google"). Claude never sees your password. Fast Party issues a secure token that gives Claude limited access to your account, which you can revoke at any time.
+  <Accordion title="Which plans do I need?">
+    **Claude:** Pro or higher. Connectors aren't available on the free plan.
+
+    **ChatGPT:** a paid plan, on the web, with developer mode turned on for custom apps.
   </Accordion>
 
-  <Accordion title="What happens if I disconnect Fast Party from Claude?">
-    Disconnecting removes Claude's access to your Fast Party account. Your Fast Party data is completely unaffected — all your events, guests, and history stay exactly as they are. You can reconnect at any time.
+  <Accordion title="Is my Fast Party password shared with my AI?">
+    No. You sign in to Fast Party through a secure authorization flow, the same kind used by "Sign in with Google." Your AI never sees your password. Fast Party issues a secure token with limited access to your account, which you can revoke at any time by disconnecting.
   </Accordion>
 
-  <Accordion title="Does this work on the Claude mobile app?">
-    Yes. Once connected on any device, Fast Party is available in all your Claude conversations — including the Claude mobile app on iOS and Android.
+  <Accordion title="Can my AI see things I can't?">
+    No. The connection uses your own Fast Party permissions. A manager connected to their AI sees and manages only what they can in Fast Party, and an admin sees what an admin can.
   </Accordion>
 
-  <Accordion title="What Claude plan do I need?">
-    You need a Claude Pro account or higher to use connectors. Fast Party in Claude is not available on the free Claude plan.
-  </Accordion>
-
-  <Accordion title="What if Claude says it can't access Fast Party?">
-    First, check that the connection is still active: go to **Customize → Connectors** and confirm Fast Party shows as connected. If it's disconnected, reconnect it using the MCP URL (`https://mcp.fastparty.ai/mcp`). If it's still connected, try starting a new Claude conversation and asking again. If the issue persists, contact [support@fastparty.ai](mailto:support@fastparty.ai).
-  </Accordion>
-
-  <Accordion title="Can multiple team members connect their own accounts?">
-    Yes. Each person connects their own Fast Party account to their own Claude account. The connection is per user, so everyone accesses their own events and data independently.
-  </Accordion>
-
-  <Accordion title="Is the connection always active or do I need to reconnect?">
-    Once connected, it stays connected. You don't need to reconnect each session. In rare cases — such as a password change or security reset — you may need to re-authorise, but this is uncommon.
-  </Accordion>
-
-  <Accordion title="Can Claude delete my events or data?">
-    Claude can only do what you ask it to do. If you ask Claude to delete an event, it will. If you don't, it won't. Fast Party never grants Claude permission to act without your instruction.
+  <Accordion title="Can my AI delete my events or data?">
+    It only does what you ask. If you ask it to delete an event, it can. If you don't, it won't. Actions that change things, such as sending invitations, ask for your confirmation first.
   </Accordion>
 
   <Accordion title="Where is my data stored?">
-    Your Fast Party data is stored on Fast Party's servers, not in Claude. When you ask Claude to do something with Fast Party, Claude sends an instruction to Fast Party, Fast Party takes the action, and the data lives in your Fast Party account. Claude doesn't retain your event data between conversations.
+    In Fast Party. When you ask your AI to do something, it sends the instruction to Fast Party, Fast Party carries it out, and the data stays in your Fast Party account. We never train AI models on your event data.
+  </Accordion>
+
+  <Accordion title="Does it work on mobile?">
+    **Claude:** yes. Once connected, Fast Party works in all your Claude conversations, including the Claude mobile app.
+
+    **ChatGPT:** set it up and use it on the web.
+  </Accordion>
+
+  <Accordion title="Can my whole team connect?">
+    Yes. Each person connects their own Fast Party account to their own AI. Everyone works with their own events and data, within their own permissions.
+  </Accordion>
+
+  <Accordion title="Do I need to reconnect every time?">
+    No. Once connected, it stays connected. Occasionally, for example after a security reset, you may be asked to sign in again.
+  </Accordion>
+
+  <Accordion title="What if my AI says it can't access Fast Party?">
+    Check the connection is still active in your AI's connector or app settings. If it's disconnected, connect it again. If it's connected, start a new conversation and ask again. Still stuck? Email [contact@fastparty.ai](mailto:contact@fastparty.ai).
+  </Accordion>
+
+  <Accordion title="What happens if I disconnect?">
+    Your AI loses access to your Fast Party account. Your events, guests and history stay exactly as they are, and you can reconnect at any time.
   </Accordion>
 </AccordionGroup>

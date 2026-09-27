@@ -1,33 +1,101 @@
 ---
-title: "Registered Events"
-description: "Create public-facing events with registration, ticketing, and attendee management."
+title: "Registration Events"
+description: "Share a registration link, sell tickets if you want to, approve sign-ups or let people register directly, and check attendees in by QR code."
 icon: "ticket"
 ---
 
-Registered Events let you open your event to a wider audience — anyone can discover and register, while you manage approvals, ticketing, and attendee check-in from one place.
+A **Registration Event** is for events where people sign up through a link rather than receiving a personal invitation: conferences, reunions, tournaments, workshops, fundraisers and ticketed shows. The people who register are your **attendees**.
 
-<Note>This page will be updated shortly.</Note>
+## Approval or direct registration
 
-export const _hidden = `
-## What's included
+When you create a Registration Event, you choose how registrations work:
 
-Registered Events give you everything you need to run a public or semi-public event:
+<CardGroup cols={2}>
+  <Card title="Approval required" icon="user-check">
+    People request a spot and you approve or decline each one. If the event is priced, attendees pay once you've approved them. Best when you want to vet who comes.
+  </Card>
 
-- **Registration management** — approve, reject, or waitlist registrants
-- **Ticketing** — create ticket types and track orders
-- **Event links** — shareable registration links for your event page
-- **Activity feed** — real-time updates for attendees
-- **Attendee check-in** — dedicated check-in flow for registered guests
-- **Photos, F&B, Tasks, Gifting** — the same tools available in Regular Events
+  <Card title="Direct registration" icon="bolt">
+    People register straight away, with no approval step. Best when anyone with the link is welcome.
+  </Card>
+</CardGroup>
 
-## How it differs from Regular Events
+## Setting it up
 
-| Feature | Regular Events | Registered Events |
-|---------|---------------|-------------------|
-| Guest invite | Direct invite | Public registration link |
-| RSVP flow | Guest-controlled | Host-approved |
-| Ticketing | No | Yes |
-| Audience | Private | Public or semi-public |
+<Steps>
+  <Step title="Create the event">
+    Click **New Event**, choose **Registration Event**, and add the name, dates and venue, just as you would for any event. Add a [banner and event template](/events/banner-and-templates): they're the first thing people see on your registration page.
+  </Step>
+  <Step title="Set up registration">
+    In the event's settings, choose approval or direct registration and set:
 
-Registered Events are ideal for workshops, meetups, fundraisers, and any event where you want structured sign-ups rather than a personal invite list.
-`
+    - **Capacity:** the most people who can register
+    - **Registration end date:** when sign-ups close
+    - **Branding:** the logo and name shown on the registration page
+    - **Age restriction**, if the event needs one
+
+    Your event can't be shared until registration setup is finished.
+  </Step>
+  <Step title="Add tickets">
+    Create one or more ticket types, free or paid, each with its own price, capacity and badge color. For paid tickets, link your payment account: Razorpay in India or Stripe in the US. Payments go straight to you. Fast Party never holds the money.
+  </Step>
+  <Step title="Open registration and share the link">
+    Open registration and share the link on WhatsApp, email, your website or social media.
+  </Step>
+</Steps>
+
+## Managing registrations
+
+The **registration dashboard** shows total registrations, revenue and a breakdown by ticket type, so you can see how the event is filling up.
+
+- **Approve or decline** requests one at a time, or approve all pending requests at once (approval mode)
+- **Pause registration** to stop new sign-ups for a while, and **resume** it when you're ready
+- Keep an eye on capacity as tickets sell
+
+Like every event, you set it up on the Event Page and run it from the [Event Dashboard](/private-events/event-dashboard).
+
+## On the day: QR check-in
+
+Every confirmed attendee gets a ticket with a QR code. At the door, you or your team scan it to check them in, and the dashboard shows who has arrived.
+
+This is different from [Check-In](/private-events/self-check-in) at an RSVP Event, where guests check themselves in.
+
+## The same event tools
+
+Registration Events use the same [event tools](/events/event-tools) as any other event. Switch on what you need:
+
+<CardGroup cols={3}>
+  <Card title="Event Schedule" icon="list-check" href="/private-events/event-schedule">
+  </Card>
+
+  <Card title="Event Lineup" icon="users-line" href="/private-events/event-lineup">
+  </Card>
+
+  <Card title="Guest Preferences" icon="utensils" href="/private-events/food-beverage">
+  </Card>
+
+  <Card title="Travel & Stay" icon="suitcase-rolling" href="/private-events/travel-stay">
+  </Card>
+
+  <Card title="Event Folder" icon="folder-open" href="/private-events/event-folder">
+  </Card>
+
+  <Card title="Feedback Corner" icon="star-half-stroke" href="/private-events/feedback-corner">
+  </Card>
+</CardGroup>
+
+## Go deeper
+
+<CardGroup cols={2}>
+  <Card title="Registration Setup and Management" icon="clipboard-list" href="/public-events/registration-management">
+    Tickets, capacity, branding, approvals and the registration dashboard.
+  </Card>
+
+  <Card title="Attendee Check-In" icon="clipboard-check" href="/public-events/registrant-check-in">
+    Scanning QR codes at the door, and checking people in by hand.
+  </Card>
+</CardGroup>
+
+<Tip>
+  Let [your connected AI](/platforms#connect-your-ai) do the setup: "Create a registration event for our annual meet on 14 December, capacity 300, with approval required." Then ask it to approve pending registrations as they come in.
+</Tip>
