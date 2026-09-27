@@ -72,17 +72,19 @@ You'll need a Fast Party account first. The connector signs you in with that sam
     [Full Claude guide with screenshots →](/claude-integration/connect)
   </Tab>
   <Tab title="ChatGPT">
-    **Requires a paid ChatGPT plan, on the web.**
+    **Requires a paid ChatGPT plan, on the web, with developer mode turned on** (ChatGPT only allows custom apps in developer mode). There's no one-click button for ChatGPT yet, so set it up by hand:
 
     <Steps>
       <Step title="Create an app">
-        In ChatGPT, go to **Settings**, then **Apps**, then **Create app**.
+        In ChatGPT, go to **Settings**, then **Apps**. Under **Advanced settings**, click **Create app**.
       </Step>
       <Step title="Enter the connection details">
         - **Name:** `FastParty`
         - **Connection type:** Server URL
         - **URL:** `https://chat.fastparty.ai/mcp`
         - **Authentication:** OAuth
+
+        Check **I understand and want to continue**, then click **Create**.
       </Step>
       <Step title="Connect and sign in">
         Click **Connect** and sign in with your Fast Party account. In any chat, pick Fast Party from **\+**, then **More**.
