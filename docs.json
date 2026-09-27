@@ -98,13 +98,30 @@
         ]
       },
       {
-        "tab": "RSVP Events",
+        "tab": "Events",
         "groups": [
           {
-            "group": "Explore Features: RSVP Event",
+            "group": "RSVP Events",
             "pages": [
               "private-events/event-creation",
-              "private-events/guests-rsvp",
+              "private-events/guests-rsvp"
+            ]
+          },
+          {
+            "group": "Registered Events",
+            "pages": []
+          },
+          {
+            "group": "Open Events",
+            "pages": []
+          },
+          {
+            "group": "Run Your Event",
+            "pages": []
+          },
+          {
+            "group": "Event Tools",
+            "pages": [
               "private-events/event-links",
               "private-events/activity-feed",
               "private-events/event-schedule",
