@@ -69,10 +69,10 @@
         ]
       },
       {
-        "tab": "Regular Events",
+        "tab": "RSVP Events",
         "groups": [
           {
-            "group": "Explore Features — Regular Event",
+            "group": "Explore Features: RSVP Event",
             "pages": [
               "private-events/event-creation",
               "private-events/guests-rsvp",

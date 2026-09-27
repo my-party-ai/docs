@@ -8,14 +8,17 @@ Fast Party has three layers. An **organization** holds **circles**, and circles 
 
 ## Events
 
-An event is a single occasion with its own page, guest list, dashboard and tools. Every event is one of two types.
+An event is a single occasion with its own page, dashboard and tools. Every event is one of three types.
 
-<CardGroup cols={2}>
-  <Card title="Regular Event" icon="calendar">
+<CardGroup cols={3}>
+  <Card title="RSVP Event" icon="envelope-open-text">
     Invitation-based. You control the guest list, and invited guests RSVP directly. No registration queue, no approvals. Best for birthdays, dinners, weddings, meetings and private functions.
   </Card>
   <Card title="Registered Event" icon="ticket">
     Registration-based. You share a registration link, people request a spot, and you approve them. If the event is priced, they pay after approval. Supports ticket types and capacity limits. Best for conferences, reunions, tournaments and ticketed shows.
+  </Card>
+  <Card title="Open Event" icon="door-open">
+    No RSVP needed: everyone in the circle is welcome. An Open Event is created inside a circle and shared only with that circle's members. Best for a weekly meetup, a club night or a batch get-together.
   </Card>
 </CardGroup>
 
@@ -23,9 +26,10 @@ An event is a single occasion with its own page, guest list, dashboard and tools
 
 | If you're running… | Use | Why |
 | --- | --- | --- |
-| A birthday, dinner, wedding, meeting or private function | **Regular Event** | You know exactly who's invited and want direct RSVPs. |
+| A birthday, dinner, wedding, meeting or private function | **RSVP Event** | You know exactly who's invited and want to know who's coming. |
 | A conference, reunion, tournament or ticketed show | **Registered Event** | You need a registration link, approvals, capacity and, optionally, ticket sales. |
-| A series with the same group, such as a monthly book club or an annual meet | **A circle** holding Regular or Registered events | Add members once and reuse them for every event in the series. |
+| A gathering where every circle member is welcome and you don't need a headcount | **Open Event** | No invitations or RSVPs to manage. Circle members just see it and come. |
+| A series with the same group, such as a monthly book club or an annual meet | **A circle** holding any of the three types | Add members once and reuse them for every event in the series. |
 
 ### Event tools
 
@@ -41,7 +45,7 @@ Every event also has an **Event Dashboard** with RSVPs, registrations and activi
 
 A circle is a saved group of people, such as a family, a work team, a book club or a college batch. You add members once, then create events inside the circle and invite everyone in one step.
 
-Circles also keep people connected between events with **posts**, **polls** and **surveys**. Either event type can live inside a circle. [Learn about circles →](/recurring-events/overview)
+Circles also keep people connected between events with **posts**, **polls** and **surveys**. Any of the three event types can live inside a circle, and Open Events can only be created inside one. [Learn about circles →](/recurring-events/overview)
 
 ## Organizations
 
@@ -76,13 +80,13 @@ It is the same product underneath. Only the words change.
 | --- | --- |
 | **Host** | The person who creates and runs an event. |
 | **Co-host** | A guest the host has given host permissions for an event. |
-| **Guest** | Someone invited to a Regular Event. |
+| **Guest** | Someone invited to an RSVP Event. |
 | **Attendee** | Someone registered for a Registered Event. |
-| **Member** | Someone in a circle or organization. |
+| **Member** | Someone in a circle or organization. Circle members are the people an Open Event is shared with. |
 | **Vendor** | A business working your event, such as a caterer or decorator. Vendors accept your request, then see only the tasks assigned to them. |
 | **Collaborator** | Someone outside the event, such as a driver, who is given a single task and sees only that task. |
 | **Tools** | The features you switch on for an event, such as Event Schedule or Potluck. |
-| **Self check-in** | Guests mark themselves as arrived at a Regular Event. Optional, and turned on by the host. |
+| **Self check-in** | Guests mark themselves as arrived at an RSVP Event. Optional, and turned on by the host. |
 | **QR check-in** | Attendees at a Registered Event are checked in by scanning their QR code. |
 | **Broadcast** | A message an organization sends to one or more circles at once. |
 | **Ask Antsy** | The button on every screen that shows nudges for your events and help videos. |
