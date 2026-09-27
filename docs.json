@@ -181,7 +181,6 @@
               "organizations/admins-and-managers",
               "organizations/circles-and-events",
               "organizations/dashboard",
-              "organizations/broadcasts",
               "data-migration"
             ]
           },
@@ -189,6 +188,34 @@
             "group": "Circles",
             "pages": [
               "recurring-events/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Notifications",
+        "groups": [
+          {
+            "group": "How Notifications Work",
+            "icon": "bell",
+            "pages": [
+              "notifications/overview",
+              "notifications/message-types"
+            ]
+          },
+          {
+            "group": "Sending Messages",
+            "icon": "paper-plane",
+            "pages": [
+              "notifications/event-wall",
+              "organizations/broadcasts"
+            ]
+          },
+          {
+            "group": "For Organizations",
+            "icon": "building",
+            "pages": [
+              "notifications/your-channels"
             ]
           }
         ]
