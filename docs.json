@@ -40,7 +40,8 @@
               "index",
               "get-started/how-it-works",
               "get-started/quickstart",
-              "platforms"
+              "platforms",
+              "features/antsy-ai"
             ]
           },
           {
@@ -124,15 +125,6 @@
             "pages": [
               "recurring-events/overview"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Antsy AI",
-        "groups": [
-          {
-            "group": "Antsy AI",
-            "pages": ["features/antsy-ai"]
           }
         ]
       },
