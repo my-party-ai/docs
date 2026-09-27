@@ -95,7 +95,7 @@
             ]
           },
           {
-            "group": "Registered Events",
+            "group": "Registration Events",
             "pages": [
               "public-events/overview",
               "public-events/registration-management",
@@ -106,6 +106,12 @@
             "group": "Open Events",
             "pages": [
               "events/open-events"
+            ]
+          },
+          {
+            "group": "Your Event Page",
+            "pages": [
+              "events/banner-and-templates"
             ]
           },
           {
