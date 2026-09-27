@@ -55,6 +55,35 @@
         ]
       },
       {
+        "tab": "Antsy & AI",
+        "groups": [
+          {
+            "group": "Antsy",
+            "pages": [
+              "features/antsy-ai"
+            ]
+          },
+          {
+            "group": "Plan with AI",
+            "pages": [
+              "claude-integration/overview",
+              "claude-integration/connect",
+              "chatgpt-integration/setup",
+              "claude-integration/what-you-can-do",
+              "claude-integration/example-prompts",
+              "claude-integration/faq"
+            ]
+          },
+          {
+            "group": "Claude Skills Pack",
+            "pages": [
+              "claude-skills/overview",
+              "claude-skills/uploading"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Walk-thru Videos",
         "groups": [
           {
@@ -123,35 +152,6 @@
             "group": "Circles",
             "pages": [
               "recurring-events/overview"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Antsy & AI",
-        "groups": [
-          {
-            "group": "Antsy",
-            "pages": [
-              "features/antsy-ai"
-            ]
-          },
-          {
-            "group": "Plan with AI",
-            "pages": [
-              "claude-integration/overview",
-              "claude-integration/connect",
-              "chatgpt-integration/setup",
-              "claude-integration/what-you-can-do",
-              "claude-integration/example-prompts",
-              "claude-integration/faq"
-            ]
-          },
-          {
-            "group": "Claude Skills Pack",
-            "pages": [
-              "claude-skills/overview",
-              "claude-skills/uploading"
             ]
           }
         ]
