@@ -105,11 +105,25 @@
         ]
       },
       {
-        "tab": "Recurring Events & My Circles",
+        "tab": "Circles & Organizations",
         "groups": [
           {
-            "group": "Manage Recurring Events via My Circles",
-            "pages": ["recurring-events/overview"]
+            "group": "Organizations",
+            "pages": [
+              "organizations/overview",
+              "organizations/setup",
+              "organizations/admins-and-managers",
+              "organizations/circles-and-events",
+              "organizations/dashboard",
+              "organizations/broadcasts",
+              "data-migration"
+            ]
+          },
+          {
+            "group": "Circles",
+            "pages": [
+              "recurring-events/overview"
+            ]
           }
         ]
       },
@@ -159,15 +173,6 @@
           {
             "group": "Add and Manage Vendors",
             "pages": ["vendors/overview"]
-          }
-        ]
-      },
-      {
-        "tab": "Data Migration",
-        "groups": [
-          {
-            "group": "Data Migration Service",
-            "pages": ["data-migration"]
           }
         ]
       }
