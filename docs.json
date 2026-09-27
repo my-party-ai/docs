@@ -32,7 +32,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Getting Started",
+        "tab": "Get Started",
         "groups": [
           {
             "group": "Welcome",
@@ -40,8 +40,7 @@
               "index",
               "get-started/how-it-works",
               "get-started/quickstart",
-              "platforms",
-              "features/antsy-ai"
+              "platforms"
             ]
           },
           {
@@ -129,13 +128,20 @@
         ]
       },
       {
-        "tab": "Claude AI",
+        "tab": "Antsy & AI",
         "groups": [
           {
-            "group": "Configure & Use Fast Party via Claude",
+            "group": "Antsy",
+            "pages": [
+              "features/antsy-ai"
+            ]
+          },
+          {
+            "group": "Plan with AI",
             "pages": [
               "claude-integration/overview",
               "claude-integration/connect",
+              "chatgpt-integration/setup",
               "claude-integration/what-you-can-do",
               "claude-integration/example-prompts",
               "claude-integration/faq"
@@ -147,15 +153,6 @@
               "claude-skills/overview",
               "claude-skills/uploading"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "ChatGPT",
-        "groups": [
-          {
-            "group": "Configure & Use Fast Party via ChatGPT",
-            "pages": ["chatgpt-integration/setup"]
           }
         ]
       },
