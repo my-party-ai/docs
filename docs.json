@@ -115,7 +115,7 @@
             ]
           },
           {
-            "group": "Run Your Event",
+            "group": "Your Event Dashboard",
             "pages": [
               "private-events/event-dashboard"
             ]
