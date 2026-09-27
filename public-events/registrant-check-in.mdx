@@ -1,58 +1,55 @@
 ---
-title: "Registrant Check-In"
-description: "Check in confirmed registrants at the door using QR codes, manual check-in, or self-check-in."
+title: "Attendee Check-In"
+description: "Check confirmed attendees in at the door by scanning their QR code, or find them in the list."
 icon: "clipboard-check"
 ---
 
-For Registered Events, check-in integrates directly with the registration system. Only approved registrants with a valid ticket can be checked in.
+At a Registered Event, check-in is tied to registration. Every confirmed attendee has a ticket with a unique QR code, and only confirmed attendees can be checked in.
 
 <Frame>
-  <img src="/assets/PublicEvent/Check in-Public.png" alt="Registrant Check-In screenshot" style={{ borderRadius: "8px" }} />
+  <img
+    src="/assets/PublicEvent/Check in-Public.png"
+    alt="Attendee Check-In screenshot"
+    style={{ borderRadius: "8px" }}
+  />
 </Frame>
 
-## How check-in works for registered events
+## Who can be checked in
 
-Every approved registrant has a ticket with a unique QR code. At check-in, the QR code is scanned (or the host finds the registrant in the list) to confirm their arrival.
-
-Only guests who have been **approved** and have a valid registration order can be checked in. Pending or declined registrants do not appear as eligible for check-in.
-
-## Host manual check-in
-
-<Steps>
-  <Step title="Open Guest Check-In">
-    Go to your event and open the **Guest Check-In** view.
-  </Step>
-  <Step title="Find the registrant">
-    Search by name or scroll the list. Registration details and ticket type are shown alongside each name.
-  </Step>
-  <Step title="Mark as arrived">
-    Tap the check-in button next to their name to confirm their arrival.
-  </Step>
-</Steps>
-
-The list updates in real time so you always have an accurate count of who's on-site.
+Only attendees with a confirmed registration and a valid ticket can be checked in. Pending or declined registrations don't appear as eligible.
 
 ## QR code check-in
 
-The fastest check-in method for events with large volumes of arrivals:
+The fastest way to handle a busy entrance:
 
-- Each registrant's ticket includes a unique QR code.
-- Display a scanner at the entrance — on a tablet or screen.
-- Registrants present their QR code (from the app or email) and scan to check in instantly.
-- The host's check-in view updates automatically.
+- Each attendee's ticket carries a unique QR code, in the app and in their confirmation message.
+- At the door, you or your team scan the code.
+- The attendee is checked in instantly, and the check-in view updates for everyone on your team.
 
 <Tip>
-  For conferences or large events, set up multiple check-in stations using different devices to handle peak arrival times smoothly.
+  For conferences or large events, run several check-in points on different phones or tablets to handle peak arrival times.
 </Tip>
 
-## Self-check-in
+## Check someone in by hand
 
-Registrants can also self-check-in on arrival by tapping **Check In** from their ticket view. This is useful for lower-traffic events or when you want to reduce door staffing.
+If an attendee can't find their QR code:
 
-## Verifying ticket types
+<Steps>
+  <Step title="Open the check-in view">
+    Open the event's **Guest Check-In** view. You can also reach it from the Event Schedule.
+  </Step>
+  <Step title="Find the attendee">
+    Search by name or scroll the list. Each name shows the attendee's ticket type.
+  </Step>
+  <Step title="Mark them as arrived">
+    Tap the check-in button next to their name.
+  </Step>
+</Steps>
 
-The check-in view shows each registrant's ticket type alongside their name. Use the badge colour assigned to each ticket type to quickly identify General Admission vs. VIP attendees, or any other distinction you've set up.
+## Spot ticket types at a glance
 
-## Check-in from the agenda
+The check-in view shows each attendee's ticket type and its badge color, so your team can tell General Admission from VIP, or any other ticket type you've set up, at a glance.
 
-The Guest Check-In view is also accessible from the **Agenda** page — useful if you're managing both the schedule and arrivals from the same screen during the event.
+<Note>
+  This is different from [Self Check-In](/private-events/self-check-in) at an RSVP Event, where guests mark themselves as arrived.
+</Note>

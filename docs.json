@@ -84,69 +84,59 @@
         ]
       },
       {
-        "tab": "Walk-thru Videos",
-        "groups": [
-          {
-            "group": "Walk-thru Videos",
-            "pages": [
-              "walkthrough-videos/private-events",
-              "walkthrough-videos/registered-events",
-              "walkthrough-videos/recurring-events",
-              "walkthrough-videos/vendors"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Events",
         "groups": [
           {
             "group": "RSVP Events",
             "pages": [
               "private-events/event-creation",
-              "private-events/guests-rsvp"
+              "private-events/guests-rsvp",
+              "private-events/self-check-in"
             ]
           },
           {
             "group": "Registered Events",
-            "pages": []
+            "pages": [
+              "public-events/overview",
+              "public-events/registration-management",
+              "public-events/registrant-check-in"
+            ]
           },
           {
             "group": "Open Events",
-            "pages": []
+            "pages": [
+              "events/open-events"
+            ]
           },
           {
             "group": "Run Your Event",
-            "pages": []
+            "pages": [
+              "private-events/event-dashboard",
+              "private-events/activity-feed"
+            ]
           },
           {
             "group": "Event Tools",
             "pages": [
-              "private-events/event-links",
-              "private-events/activity-feed",
               "private-events/event-schedule",
+              "private-events/event-lineup",
+              "private-events/event-links",
+              "private-events/event-folder",
               "private-events/food-beverage",
-              "private-events/tasks",
               "private-events/potluck",
+              "private-events/tasks",
+              "private-events/travel-stay",
               "private-events/guest-eta",
-              "private-events/self-check-in",
               "private-events/gifting",
               "private-events/photos",
-              "private-events/travel-stay",
-              "private-events/event-folder",
-              "private-events/feedback-corner",
-              "private-events/event-lineup",
-              "private-events/event-dashboard"
+              "private-events/feedback-corner"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Registered Events",
-        "groups": [
+          },
           {
-            "group": "Registered Events",
-            "pages": ["public-events/overview"]
+            "group": "Vendors",
+            "pages": [
+              "vendors/overview"
+            ]
           }
         ]
       },
@@ -170,15 +160,6 @@
             "pages": [
               "recurring-events/overview"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Vendors",
-        "groups": [
-          {
-            "group": "Add and Manage Vendors",
-            "pages": ["vendors/overview"]
           }
         ]
       }

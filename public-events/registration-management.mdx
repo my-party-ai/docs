@@ -1,89 +1,93 @@
 ---
-title: "Registration Management"
-description: "Set up registration, create ticket types, and manage your registrants."
+title: "Registration Setup and Management"
+description: "Set up registration and tickets, then approve, decline and track your attendees from the registration dashboard."
 icon: "clipboard-list"
 ---
 
-Registration Management is the control center for your Registered Event — configure tickets, set capacity, manage branding, and approve or decline every registration request.
+Registration is the control center for a Registered Event: choose how people register, set capacity and tickets, and manage every attendee as they sign up.
 
 <Frame>
-  <img src="/assets/PublicEvent/event-registration.png" alt="Registration Management screenshot" style={{ borderRadius: "8px" }} />
+  <img
+    src="/assets/PublicEvent/event-registration.png"
+    alt="Registration setup screenshot"
+    style={{ borderRadius: "8px" }}
+  />
 </Frame>
 
 ## Registration setup
 
-Before opening registration, configure your registration settings:
+Set these up in the event's settings before you share the event. Your event can't be shared until registration setup is finished.
+
+### Approval or direct registration
+
+| Mode | How it works |
+| --- | --- |
+| **Approval required** | People request a spot, and you approve or decline each request. If the event is priced, attendees pay once you've approved them. |
+| **Direct registration** | People register straight away, with no approval step. |
 
 ### Capacity
 
-Choose the maximum number of attendees:
-
-| Option | |
-|--------|--|
-| 50 | 100 |
-| 250 | 500 |
-| 1,000 | 1,000+ |
+Choose the most people who can register: 50, 100, 250, 500, 1,000 or 1,000+.
 
 ### Registration end date
 
-Set a date after which guests can no longer submit registration requests. This lets you close registrations before the event to finalise your headcount.
+Set a date after which no more registrations are accepted, so you can finalize your headcount before the event.
 
 ### Branding
 
-- **Brand logo** — upload your organisation's logo to appear on the registration page.
-- **Brand name** — the name shown as the organiser on registration communications.
+- **Brand logo:** shown on the registration page
+- **Brand name:** the name shown as the organizer on registration messages
 
 ### Age restriction
 
-Enable the **18+ restriction** to require guests to confirm they are 18 or over when registering.
+Turn on the **18+ restriction** to ask attendees to confirm they're 18 or over when they register.
 
-### Payment profile
+### Payment account
 
-If you're selling paid tickets, link a payment profile to collect revenue from registrants. Set this up under your account settings before creating paid tickets.
+To sell paid tickets, link your payment account first: Razorpay in India or Stripe in the US. Ticket revenue goes straight to you. Fast Party never holds the money. Organizations set this up once in [organization setup](/organizations/setup#payments).
 
 ## Ticket types
 
-Create multiple ticket types for a single event — for example, General Admission and VIP, or Early Bird and Standard.
+Create as many ticket types as you need, such as General Admission and VIP, or Early Bird and Standard.
 
 | Field | Description |
 |-------|-------------|
-| **Label** | The ticket name shown to guests — e.g. "General Admission", "VIP" |
-| **Price** | Free or Paid. For paid tickets, enter the price and currency (INR). |
+| **Label** | The ticket name attendees see, such as "General Admission" |
+| **Price** | Free or paid. For paid tickets, enter the price. |
 | **Capacity** | How many tickets of this type are available |
-| **Notes** | Optional notes shown to guests — e.g. "Includes dinner" |
-| **Badge colour** | A colour tag used in the registration dashboard to identify ticket holders at a glance |
+| **Notes** | Optional notes shown to attendees, such as "Includes dinner" |
+| **Badge color** | A color used to spot this ticket type at a glance on the dashboard and at check-in |
 
 ## Opening and pausing registration
 
-Once configured, share the registration link to open registrations. You can also **pause** registration at any time — for example, while reviewing a batch of requests — and resume it when ready.
+Share the registration link to open registration. You can **pause** registration at any time, for example while you review a batch of requests, and **resume** it when you're ready.
 
 ## Registration dashboard
 
 The registration dashboard gives you a live overview:
 
 - Total registrations received
-- Approved, declined, and pending counts
-- Revenue collected (for paid tickets)
-- Breakdown by ticket type
+- Approved, declined and pending counts
+- Revenue collected for paid tickets
+- A breakdown by ticket type
 
-## Managing registrants
+## Managing attendees
 
-The **Registrants** tab shows every registration request with their name, ticket type, payment status, and registration date.
-
-**Available actions:**
+The attendee list shows every registration with the person's name, ticket type, payment status and registration date.
 
 | Action | What it does |
 |--------|-------------|
-| **Approve** | Confirms the guest — they're notified and added to the guest list |
-| **Decline** | Rejects the request — the guest is notified |
-| **Bulk approve pending** | Approves all pending requests at once |
-| **Bulk approve all** | Approves every registration regardless of current status |
-| **Bulk reject** | Declines multiple registrations at once |
+| **Approve** | Confirms the attendee. They're notified and receive their ticket. |
+| **Decline** | Declines the request. The person is notified. |
+| **Approve all pending** | Approves every pending request at once |
+| **Decline in bulk** | Declines several requests at once |
 
-## Guest ticket view
+Approve and decline apply when the event uses approval. With direct registration, attendees are confirmed as soon as they register.
 
-Once approved, each registrant receives a confirmation with their ticket details. Their ticket includes a QR code used for check-in at the event. See [Registrant Check-In](/public-events/registrant-check-in) for details.
+## Attendee tickets
+
+Every confirmed attendee receives a ticket with a QR code, which is scanned at the door. See [Attendee Check-In](/public-events/registrant-check-in).
 
 <Note>
-  Guests on Registered Events do not receive direct invitations. They find the event through the registration link you share and submit their own request. Once approved, they receive confirmation and can access the full event details.
+  Attendees at a Registered Event don't receive personal invitations. They find the event through the registration link you share and register themselves.
 </Note>
