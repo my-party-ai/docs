@@ -1,16 +1,19 @@
 ---
-title: "Get the App"
-description: "Use Fast Party on the web, on iOS and Android, or from Claude and ChatGPT. One account, everywhere."
+title: "Get the App & Connect Your AI"
+description: "Use Fast Party on the web, on iOS and Android, and connect it to Claude or ChatGPT. One account, everywhere."
 icon: "mobile"
+sidebarTitle: "Get the App & Connect"
 ---
 
 Fast Party works on the web, on your phone, and inside the AI assistant you already use. It's one account everywhere, so an event you create on your phone is instantly on the web and in Claude.
 
-## Web
+## Get the app
 
-Go to [app.fastparty.ai](https://app.fastparty.ai) in any modern browser. There's nothing to install, and every feature is available.
+### Web
 
-## Mobile
+Go to [app.fastparty.ai](https://app.fastparty.ai) in any modern browser. There's nothing to install, and every feature is available. The [Event Dashboard](/private-events/event-dashboard), where you run your events, opens in a laptop or tablet browser.
+
+### Mobile
 
 <CardGroup cols={2}>
   <Card title="Download on the App Store" icon="apple" href="https://apps.apple.com/in/app/fast-party/id6748051479">
@@ -22,23 +25,80 @@ Go to [app.fastparty.ai](https://app.fastparty.ai) in any modern browser. There'
   </Card>
 </CardGroup>
 
-## Guests don't need the app
+### Guests don't need the app
 
-Guests and attendees receive a link by WhatsApp, SMS or email. They can RSVP, register, pay and check in from that link in any browser. To open the full event page, they sign up for a free Fast Party account.
+Guests and attendees receive a link by WhatsApp, SMS or email. They can RSVP, register, pay and check in from that link in any browser. To open the full Event Page, they sign up for a free Fast Party account.
 
-## Claude and ChatGPT
+## Connect your AI
 
-Fast Party also works inside Claude and ChatGPT. You add it once as a **custom connector** using our server address, then manage your events by conversation. It isn't listed in a connector store, so follow the setup steps.
+Fast Party runs an MCP server with 250+ tools. Add it once as a **custom connector** in Claude or ChatGPT, and your AI can create and update events, invite guests, build schedules and answer questions about your own data. It isn't listed in a connector store, so use the steps below.
 
-<CardGroup cols={2}>
-  <Card title="Connect to Claude" icon="robot" href="/claude-integration/connect">
-    Requires Claude Pro or higher.
-  </Card>
+You'll need a Fast Party account first. The connector signs you in with that same account, so nothing is copied anywhere else.
 
-  <Card title="Connect to ChatGPT" icon="comments" href="/chatgpt-integration/setup">
-    Requires a paid ChatGPT plan on the web.
-  </Card>
-</CardGroup>
+<Tabs>
+  <Tab title="Claude">
+    **Requires Claude Pro or higher.** Each person connects their own Fast Party account.
+
+    **Fastest way:** sign in to Fast Party on the web and click **Claude** in the top navigation. If Claude is already set up on your computer, you're connected.
+
+    **Or set it up by hand:**
+
+    <Steps>
+      <Step title="Open Connectors">
+        In [claude.ai](https://claude.ai) or the Claude desktop app, click **Customize**, then **Connectors**.
+      </Step>
+      <Step title="Add a custom connector">
+        Click **\+**, then **Add custom connector**. Enter:
+
+        - **Name:** `Fast Party`
+        - **URL:** `https://mcp.fastparty.ai/mcp`
+
+        Click **Add**.
+      </Step>
+      <Step title="Connect and sign in">
+        Click **Connect** on the Fast Party listing, then sign in with your Fast Party account.
+      </Step>
+    </Steps>
+
+    [Full Claude guide with screenshots →](/claude-integration/connect)
+  </Tab>
+  <Tab title="ChatGPT">
+    **Requires a paid ChatGPT plan, on the web.**
+
+    <Steps>
+      <Step title="Create an app">
+        In ChatGPT, go to **Settings**, then **Apps**, then **Create app**.
+      </Step>
+      <Step title="Enter the connection details">
+        - **Name:** `FastParty`
+        - **Connection type:** Server URL
+        - **URL:** `https://chat.fastparty.ai/mcp`
+        - **Authentication:** OAuth
+      </Step>
+      <Step title="Connect and sign in">
+        Click **Connect** and sign in with your Fast Party account. In any chat, pick Fast Party from **\+**, then **More**.
+      </Step>
+    </Steps>
+
+    [Full ChatGPT guide with screenshots →](/chatgpt-integration/setup)
+  </Tab>
+</Tabs>
+
+### Check it worked
+
+Ask your AI: **"What Fast Party tools do you have access to?"** It should list them. Then just ask, for example:
+
+> "Create a birthday dinner for my daughter on 5 July at 7 pm, 20 guests at our house."
+
+### Your data, your permissions
+
+- **Nobody gets more access through AI** than they already have in Fast Party. If you can't see something in the app, your AI can't either.
+- **You stay in control.** Review and approve actions when asked, and disconnect at any time from your AI's connector settings. Your Fast Party data stays intact.
+- **Fast Party never trains AI models on your event data**, and never sells or shares it for marketing.
+
+<Note>
+  Stuck? Email [contact@fastparty.ai](mailto:contact@fastparty.ai) and we'll set it up with you.
+</Note>
 
 ## Everything stays in sync
 
