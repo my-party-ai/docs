@@ -90,8 +90,7 @@
             "group": "RSVP Events",
             "pages": [
               "private-events/event-creation",
-              "private-events/guests-rsvp",
-              "private-events/self-check-in"
+              "private-events/guests-rsvp"
             ]
           },
           {
@@ -111,31 +110,56 @@
           {
             "group": "Your Event Page",
             "pages": [
-              "events/banner-and-templates"
+              "events/banner-and-templates",
+              "private-events/event-links"
             ]
           },
           {
             "group": "Run Your Event",
             "pages": [
-              "private-events/event-dashboard",
-              "private-events/activity-feed"
+              "private-events/event-dashboard"
             ]
           },
           {
             "group": "Event Tools",
             "pages": [
-              "private-events/event-schedule",
-              "private-events/event-lineup",
-              "private-events/event-links",
-              "private-events/event-folder",
-              "private-events/food-beverage",
-              "private-events/potluck",
-              "private-events/tasks",
-              "private-events/travel-stay",
-              "private-events/guest-eta",
-              "private-events/gifting",
-              "private-events/photos",
-              "private-events/feedback-corner"
+              "events/event-tools",
+              {
+                "group": "For Guests to Read",
+                "icon": "book-open",
+                "pages": [
+                  "private-events/event-schedule",
+                  "private-events/event-lineup",
+                  "private-events/event-folder"
+                ]
+              },
+              {
+                "group": "Things You Ask Your Guests",
+                "icon": "clipboard-question",
+                "pages": [
+                  "private-events/food-beverage",
+                  "private-events/travel-stay",
+                  "private-events/gifting",
+                  "private-events/potluck"
+                ]
+              },
+              {
+                "group": "On the Day, and After",
+                "icon": "calendar-check",
+                "pages": [
+                  "private-events/self-check-in",
+                  "private-events/guest-eta",
+                  "private-events/photos",
+                  "private-events/feedback-corner"
+                ]
+              },
+              {
+                "group": "For Running the Event",
+                "icon": "list-check",
+                "pages": [
+                  "private-events/tasks"
+                ]
+              }
             ]
           },
           {
