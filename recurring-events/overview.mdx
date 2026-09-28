@@ -1,83 +1,162 @@
 ---
 title: "Circles"
-description: "Save a group of people once, then run events with them again and again and keep them connected in between."
+description: "Save a group of people once, then run event after event with them and keep them connected in between."
 icon: "circle-nodes"
 ---
 
-A circle is a saved group of people: your family, a work team, a book club, a college batch or a club section. Add members once, and you can run event after event with the same group without re-entering names and contacts.
+A circle is a group of people you plan with again and again: your family, the Sunday football lot, a book club, an office team or a college batch. **Add them once.** Every event you run inside the circle already knows who's invited, and posts and polls keep everyone connected between events.
 
-<Frame>
-  <img src="/assets/Circle/circles.png" alt="My Circles screenshot" style={{ borderRadius: "8px" }} />
-</Frame>
+<CardGroup cols={3}>
+  <Card title="Add members once" icon="user-plus">
+    Invite people by phone number or email. They join once and stay for every event.
+  </Card>
 
-Circles can be **personal**, created by you for your own groups, or part of an **organization**, where admins and managers run them. [Circles in an organization →](/organizations/circles-and-events)
+  <Card title="Run events inside it" icon="calendar-plus">
+    RSVP, Registration or Open Events, with the whole circle invited in one step.
+  </Card>
+
+  <Card title="Stay connected" icon="comments">
+    Posts, polls and surveys keep the group talking between events.
+  </Card>
+</CardGroup>
+
+## Personal and organization circles
+
+|  | Personal circle | Organization circle |
+| --- | --- | --- |
+| **Who creates it** | You, for your own groups | An organization's admins and managers |
+| **Cost** | Free | Part of an organization's paid plan |
+| **Events** | RSVP and Registration Events | RSVP, Registration and [Open Events](/events/open-events) |
+| **Messages come from** | Fast Party | The organization's own WhatsApp and email |
+| **Members** | Invited to the circle | Join the organization once, then placed in any of its circles |
+
+This page covers what every circle does. For how circles work inside an organization, see [Circles and events in your organization](/organizations/circles-and-events).
 
 ## Create a circle
 
-Go to **Circles** and click **New Circle**.
-
 <Steps>
-  <Step title="Name your circle">
-    Give it a clear name your members will recognize, up to 30 characters.
+  <Step title="Start a new circle">
+    From **Home**, go to **My Circles** and click **\+**.
   </Step>
-  <Step title="Add a cover image">
-    Upload a photo or banner so the circle is easy to spot.
+  <Step title="Name it and describe it">
+    Give it a name your members will recognize, and a short line on what the group is for. The description shows on the circle's **About** tab.
   </Step>
-  <Step title="Add a description">
-    Optional. Describe what the group is for.
+  <Step title="Add a banner">
+    A wide image across the top of the circle makes it easy to spot. Upload your own, or generate one with AI.
   </Step>
   <Step title="Add members">
-    Enter each member's name and a phone number or email. They receive an invitation to join. You can also share the circle's invite link.
-  </Step>
-  <Step title="Save">
-    Your circle is ready.
+    Click **Add Members** and enter each person's phone number or email. They're sent an invitation on WhatsApp or email to join.
   </Step>
 </Steps>
 
-You can add or remove members at any time. Changes to a circle don't affect guests already added to past events.
+<Tip>
+  Connected to Claude or ChatGPT? Say "Create a circle called Weekend Riders with these 20 people and make a banner for it," and it's done. [Connect your AI →](/platforms#connect-your-ai)
+</Tip>
 
-## What's in a circle
+## Inside a circle
 
-| Tab | What's here |
-|-----|-------------|
-| **About** | The circle's description, member count and settings |
-| **Events** | Events created in or linked to this circle |
-| **Members** | The full member list, with management options |
-| **Posts & Polls** | The circle's feed: posts, polls and surveys |
+Every circle page has the same layout.
+
+| Area | What's there |
+| --- | --- |
+| **Banner and name** | The circle's banner, name and member count. Click **Edit banner** to change the image. |
+| **About** | What the circle is for, and who manages it. |
+| **Events** | The circle's upcoming events. **Manage Events** takes you to the circle's event list, where you create new ones. |
+| **Members** | Everyone in the circle and their role. Switch between **Members**, **Pending** and **Denied** to see who has joined, who hasn't responded, and who declined. |
+| **Posts & Polls** | The circle's feed. Click **Create** to share a post, run a poll or send a survey. |
+
+Use the **Members** and **Posts & Polls** buttons on the right edge of the page to switch between the member list and the feed.
+
+## Members
+
+### How people join
+
+When you add someone, they get an invitation on WhatsApp or email. Until they accept, they're listed under **Pending**. If they decline, they move to **Denied**. Members don't need the app: they can accept and take part from the link on the web.
+
+### Roles
+
+| Role | What they can do |
+| --- | --- |
+| **Organizer** | Runs the circle: adds and removes members, creates events, posts, and edits the circle. |
+| **Member** | Sees the circle's events and feed, RSVPs or registers, reacts to posts and votes in polls. |
+
+To remove someone, open the menu next to their name. Removing a member doesn't affect events they've already been invited to.
+
+### Leaving and muting
+
+Members can **mute** a circle to stop its messages while staying in it, or **leave** it at any time.
 
 ## Events in a circle
 
-From a circle's **Events** tab, create an event that's automatically linked to the circle:
+From the circle's **Events** tab, click **Manage Events** and then **Create Event**. The event is linked to the circle.
 
 | Type | In a circle |
 | --- | --- |
-| **RSVP Event** | Invite circle members, or anyone else, and track who's coming. Add all members to the guest list in one click. |
-| [**Registration Event**](/public-events/overview) | Members sign up through a link, with or without your approval, and pay if the event is priced. |
-| [**Open Event**](/events/open-events) | Every member of the circle is welcome, with no RSVP needed. Available only in organization circles, and shared only with that circle's members. |
+| [**RSVP Event**](/private-events/event-creation) | Every member is invited and RSVPs. |
+| [**Registration Event**](/public-events/overview) | Members sign up through the event's link, with or without your approval, and pay if the event is priced. |
+| [**Open Event**](/events/open-events) | Every member is welcome, with no RSVP needed. Organization circles only. |
 
-This is how a one-off becomes a series: a monthly book club, a weekly club night or an annual reunion, all with the same group.
+Like every event, a circle event can run over several days, with a different invitation template for each day.
+
+### Created, then live
+
+A circle event has two states:
+
+| State | What members see |
+| --- | --- |
+| **Created** | The event is listed as upcoming, but members can't open it yet. This is your time to set it up. |
+| **Live** | Every member is invited at once, on their own channels. |
+
+<Warning>
+  Making an event live invites the whole circle, and a notification can't be taken back. Check the venue, time, description and invitation template first.
+</Warning>
 
 ### Adding a circle to another event
 
-When adding guests to any RSVP Event, click **Add from Circle** and choose a circle. All its members are added at once. To leave someone out, remove them from that event's guest list. The circle itself doesn't change.
+When adding guests to any RSVP Event, click **Add from Circle** and choose a circle. All its members are added in one step. To leave someone out, remove them from that event's guest list; the circle itself doesn't change.
 
 ## Posts, polls and surveys
 
-Every circle has a feed that keeps members connected between events.
+The feed keeps the group together between events. Click **Create** in **Posts & Polls** and choose:
 
-- **Posts:** share updates, photos and news. Members can react.
-- **Polls:** ask a quick question, such as which date works best, and let members vote.
-- **Surveys:** ask several questions at once. Describe what you want to find out, and a draft survey is written for you. Review and edit the questions, then publish it to the circle.
+<CardGroup cols={3}>
+  <Card title="Post" icon="message">
+    Share an update, news or photos. Members react to posts.
+  </Card>
+
+  <Card title="Poll" icon="square-poll-vertical">
+    Ask one question with a few options, such as which date works best. Set how long it stays open; you can close it early or extend it.
+  </Card>
+
+  <Card title="Survey" icon="clipboard-question">
+    Ask several questions at once. Describe what you want to find out, and a draft is written for you to review, edit and publish.
+  </Card>
+</CardGroup>
+
+<Tip>
+  A poll is the quickest way to get a quiet group talking. "Which Saturday works for the next meet?" gets more replies than a post.
+</Tip>
 
 ## Find and join circles
 
-Browse and search public circles from the **Circles** page. If a circle is open, you can join it directly.
+Use **Find a circle** on the Circles page to search the circles you belong to and public circles you can join.
 
-## Manage your circles
+## Common questions
 
-From a circle's settings you can:
+<AccordionGroup>
+  <Accordion title="Is a circle free?">
+    Yes. Personal circles are free to create, and inviting members costs nothing. Organizations, with many circles under one roster and brand, are part of our paid plans.
+  </Accordion>
 
-- Edit the member list
-- Rename the circle
-- Update the cover image
-- Delete the circle. Events the circle has already been used for aren't affected.
+  <Accordion title="Does everyone in my circle need the app?">
+    No. Members can join, RSVP, register and use every event tool from a link on the web. The app is there for those who want it.
+  </Accordion>
+
+  <Accordion title="Can I run a paid event in a circle?">
+    Yes. Create a Registration Event in the circle and set a price. Payments go straight to your own account.
+  </Accordion>
+
+  <Accordion title="I manage a small group. Is a circle still useful?">
+    If you plan anything together more than once, yes. The second event takes minutes because everyone is already there.
+  </Accordion>
+</AccordionGroup>
