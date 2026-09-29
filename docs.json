@@ -84,6 +84,37 @@
         ]
       },
       {
+        "tab": "Organizations",
+        "groups": [
+          {
+            "group": "Organizations",
+            "pages": [
+              "organizations/overview",
+              "organizations/setup",
+              "organizations/admins-and-managers",
+              "organizations/circles-and-events",
+              "organizations/dashboard",
+              "data-migration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Circles",
+        "groups": [
+          {
+            "group": "Circles",
+            "pages": [
+              "recurring-events/overview",
+              "circles/create-a-circle",
+              "circles/members",
+              "circles/circle-events",
+              "circles/posts-polls-surveys"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Events",
         "groups": [
           {
@@ -171,22 +202,6 @@
         ]
       },
       {
-        "tab": "Organizations",
-        "groups": [
-          {
-            "group": "Organizations",
-            "pages": [
-              "organizations/overview",
-              "organizations/setup",
-              "organizations/admins-and-managers",
-              "organizations/circles-and-events",
-              "organizations/dashboard",
-              "data-migration"
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Notifications",
         "groups": [
           {
@@ -210,17 +225,6 @@
             "icon": "building",
             "pages": [
               "notifications/your-channels"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Circles",
-        "groups": [
-          {
-            "group": "Circles",
-            "pages": [
-              "recurring-events/overview"
             ]
           }
         ]

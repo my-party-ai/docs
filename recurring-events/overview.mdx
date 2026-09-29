@@ -2,6 +2,7 @@
 title: "Circles"
 description: "Save a group of people once, then run event after event with them and keep them connected in between."
 icon: "circle-nodes"
+sidebarTitle: "What Is a Circle"
 ---
 
 A circle is a group of people you plan with again and again: your family, the Sunday football lot, a book club, an office team or a college batch. **Add them once.** Every event you run inside the circle already knows who's invited, and posts, polls and surveys keep everyone connected between events.
@@ -9,11 +10,29 @@ A circle is a group of people you plan with again and again: your family, the Su
 <Frame>
   <img
     src="/images/circle-page.png"
-    alt="Circle Page"
+    alt="A circle page with its banner, About and Events tabs, and the Members list"
     style={{ borderRadius: "8px" }}
     title="Circle Page"
   />
 </Frame>
+
+<CardGroup cols={2}>
+  <Card title="Create a circle" icon="circle-plus" href="/circles/create-a-circle">
+    Name it, describe it, add a banner and invite your people.
+  </Card>
+
+  <Card title="Members" icon="users" href="/circles/members">
+    Who has joined, who's pending, and who runs the circle.
+  </Card>
+
+  <Card title="Events in a circle" icon="calendar-days" href="/circles/circle-events">
+    Create events for the whole circle and make them live.
+  </Card>
+
+  <Card title="Posts, polls and surveys" icon="comments" href="/circles/posts-polls-surveys">
+    Keep the group talking between events.
+  </Card>
+</CardGroup>
 
 ## Personal and organization circles
 
@@ -25,7 +44,7 @@ A circle is a group of people you plan with again and again: your family, the Su
 | **Messages come from** | Fast Party | The organization's own WhatsApp and email |
 | **Members** | Invited to the circle | Join the organization once, then placed in any of its circles |
 
-This page covers what every circle does. For circles inside an organization, see [Circles and events in your organization](/organizations/circles-and-events).
+This section covers what every circle does. For circles inside an organization, see [Circles and events in your organization](/organizations/circles-and-events).
 
 ## Find your circles
 
@@ -34,49 +53,11 @@ Every circle you belong to is under **My Circles** on your Home page. Click **Vi
 <Frame>
   <img
     src="/images/circles-list-1.png"
-    alt="Circles List 1"
+    alt="The circles page with a Find a circle search box and a grid of circles"
     style={{ borderRadius: "8px" }}
-    title="Circles List 1"
+    title="Circles List"
   />
 </Frame>
-
-## Create a circle
-
-<Steps>
-  <Step title="Click Create Circle">
-    On your Home page, under **My Circles**, click **Create Circle**.
-  </Step>
-  <Step title="Fill in the details">
-    <Frame>
-      <img
-        src="/images/create-circle.png"
-        alt="Create Circle"
-        style={{ borderRadius: "8px", width: "80%", display: "block", margin: "0 auto" }}
-        title="Create Circle"
-      />
-    </Frame>
-
-    | Field | What it's for |
-    | --- | --- |
-    | **Circle photo** | The round image members see in their circle list. |
-    | **Circle Name** | Required, up to 30 characters. A name members will recognize. |
-    | **Managed By** | Required. The organization or person running the circle. Members see it on the **About** tab. |
-    | **Description** | Optional, up to 280 characters. What the group is for. |
-    | **Hide Member List** | Turn on to stop members seeing who else is in the circle. Useful for large or client-facing groups. |
-
-    Click **Create Circle**.
-  </Step>
-  <Step title="Add a banner">
-    On the circle page, click **Edit banner** to add a wide image across the top. Upload your own, or generate one with AI.
-  </Step>
-  <Step title="Add members">
-    Click **Add Members** and enter each person's phone number or email. They're sent an invitation on WhatsApp or email to join.
-  </Step>
-</Steps>
-
-<Tip>
-  Connected to Claude or ChatGPT? Say "Create a circle called Weekend Riders with these 20 people and make a banner for it," and it's done. [Connect your AI →](/platforms#connect-your-ai)
-</Tip>
 
 ## Inside a circle
 
@@ -91,118 +72,6 @@ Every circle you belong to is under **My Circles** on your Home page. Click **Vi
 Switch between **Members** and **Posts & Polls** with the buttons on the right edge of the page.
 
 The **⋮** menu next to the circle's name has **Edit Circle**, **Settings**, **Delete Circle** and **Exit Circle**.
-
-## Members
-
-### How people join
-
-When you add someone, they get an invitation on WhatsApp or email. The member list has three views:
-
-| View | Who's in it |
-| --- | --- |
-| **Members** | People who have joined. |
-| **Pending** | People invited who haven't responded yet. |
-| **Denied** | People who declined. |
-
-Members don't need the app. They can accept and take part from the link on the web.
-
-### Roles
-
-<Frame>
-  <img
-    src="/images/circle-member-menu.png"
-    alt="Circle Member Menu"
-    style={{ borderRadius: "8px" }}
-    title="Circle Member Menu"
-  />
-</Frame>
-
-| Role | What they can do |
-| --- | --- |
-| **Organizer** | Runs the circle: adds and removes members, creates events, posts, and edits the circle. |
-| **Member** | Sees the circle's events and feed, RSVPs or registers, and takes part in posts, polls and surveys. |
-
-Open the **⋮** menu next to a member to **Make Organizer** or **Remove Member**. Removing someone doesn't affect events they've already been invited to.
-
-Members can leave a circle at any time with **Exit Circle**.
-
-## Events in a circle
-
-From the circle page, click **Manage Events**. Here you see every event in the circle and create new ones.
-
-<Frame>
-  <img
-    src="/images/circle-manage-events-1.png"
-    alt="Circle Manage Events 1"
-    style={{ borderRadius: "8px" }}
-    title="Circle Manage Events 1"
-  />
-</Frame>
-
-- **Filter** by **All**, **Live**, **Not Live** or **Past**.
-- **Switch view** between **Tile** and **Calendar**.
-- **Set Reminder** on an event to nudge members.
-- **Create Event** to add a new one, linked to the circle.
-
-| Type | In a circle |
-| --- | --- |
-| [**RSVP Event**](/private-events/event-creation) | Every member is invited and RSVPs. |
-| [**Registration Event**](/public-events/overview) | Members sign up through the event's link, with or without your approval, and pay if the event is priced. |
-| [**Open Event**](/events/open-events) | Every member is welcome, with no RSVP needed. Organization circles only. |
-
-Like every event, a circle event can run over several days, with a different invitation template for each day.
-
-### Not live, then live
-
-A circle event starts **Not Live**. Members can see it's coming, but can't open it yet, so you have time to set it up. When you make it **Live**, every member is invited at once, on their own channels.
-
-<Warning>
-  Making an event live invites the whole circle, and a notification can't be taken back. Check the venue, time, description and invitation template first.
-</Warning>
-
-### Adding a circle to another event
-
-When adding guests to any RSVP Event, click **Add from Circle** and choose a circle. All its members are added in one step. To leave someone out, remove them from that event's guest list; the circle itself doesn't change.
-
-## Posts, polls and surveys
-
-The feed keeps the group together between events. In **Posts & Polls**, click **Create** and choose what to make.
-
-<Frame>
-  <img
-    src="/images/circle-create-post-poll-1.png"
-    alt="Circle Create Post Poll 1"
-    style={{ borderRadius: "8px" }}
-    title="Circle Create Post Poll 1"
-  />
-</Frame>
-
-<CardGroup cols={3}>
-  <Card title="Post" icon="message">
-    Share your thoughts, news and photos with the circle.
-  </Card>
-
-  <Card title="Poll" icon="square-poll-vertical">
-    Ask one question with a few options, such as which date works best, and set how long the poll stays open.
-  </Card>
-
-  <Card title="Survey form" icon="clipboard-question">
-    Describe what you want to collect, and a survey is generated for you to review, edit and publish.
-  </Card>
-</CardGroup>
-
-<Frame>
-  <img
-    src="/images/circle-survey-1.png"
-    alt="Circle Survey 1"
-    style={{ borderRadius: "8px", width: "80%", display: "block", margin: "0 auto" }}
-    title="Circle Survey 1"
-  />
-</Frame>
-
-<Tip>
-  A poll is the quickest way to get a quiet group talking. "Which Saturday works for the next meet?" gets more replies than a post.
-</Tip>
 
 ## Common questions
 
