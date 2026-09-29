@@ -35,7 +35,7 @@
         "tab": "Get Started",
         "groups": [
           {
-            "group": "Welcome",
+            "group": "Get Started",
             "pages": [
               "index",
               "get-started/how-it-works",
