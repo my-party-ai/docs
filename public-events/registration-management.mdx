@@ -1,96 +1,96 @@
 ---
 title: "Registration Setup and Management"
-description: "Set up registration and tickets, then approve, decline and track your attendees from the registration dashboard."
+description: "Set up registration and tiers, then review, approve and track your attendees from the Registration page."
 icon: "clipboard-list"
 sidebarTitle: "Registration Setup"
 ---
 
-Registration is the control center for a Registered Event: choose how people register, set capacity and tickets, and manage every attendee as they sign up.
-
-Registration is the control center for a Registration Event: choose how people register, set capacity and tickets, and manage every attendee as they sign up.
+On a Registration Event's Event Page, click **Registration**. This is the control center: how people register, your tiers, and every attendee as they sign up.
 
 <Frame>
   <img
-    src="/assets/PublicEvent/event-registration.png"
-    alt="Registration setup screenshot"
+    src="/images/ev-registration-overview.png"
+    alt="The Registration page Overview with counts for Invited, Registration, To Review, Approved and Rejected, the Settings panel and the Tiers list"
     style={{ borderRadius: "8px" }}
+    title="Registration overview"
   />
 </Frame>
 
-## Registration setup
+## Overview at a glance
 
-Set these up in the event's settings before you share the event. Your event can't be shared until registration setup is finished.
+The top row counts every registration:
 
-### Approval or direct registration
-
-| Mode | How it works |
+| Count | What it means |
 | --- | --- |
-| **Approval required** | People request a spot, and you approve or decline each request. If the event is priced, attendees pay once you've approved them. |
-| **Direct registration** | People register straight away, with no approval step. |
+| **Invited** | People you added yourself with **Add Attendees** |
+| **Registration** | Everyone who has registered |
+| **To Review** | Waiting for your approval |
+| **Approved** | Confirmed |
+| **Rejected** | Declined |
 
-### Capacity
+Below it, **Settings** shows when registration closes, whether approval is required, your payment profile, and how much of your capacity is used. **Pause Registration** stops new sign-ups until you resume.
 
-Choose the most people who can register: 50, 100, 250, 500, 1,000 or 1,000+.
+## Set up registration
 
-### Registration end date
+Click the pencil on **Settings** to open **Set Up**. Finish this before you share the event: it can't be shared until registration setup is done.
 
-Set a date after which no more registrations are accepted, so you can finalize your headcount before the event.
+<Frame>
+  <img
+    src="/images/ev-registration-setup.png"
+    alt="The Set Up dialog with Require Registration Approval, Question for registrants, Registration End Date, Age Restriction, and Free only or Paid"
+    style={{ borderRadius: "8px", width: "60%", display: "block", margin: "0 auto" }}
+    title="Registration Set Up"
+  />
+</Frame>
 
-### Branding
+| Setting | What it does |
+| --- | --- |
+| **Require Registration Approval** | On: you approve each registrant, and for paid events they pay after you approve. Off: people are confirmed as soon as they register. |
+| **Question for registrants** | Required when approval is on. Ask what you need to decide, such as "Which batch and branch did you graduate from?" |
+| **Registration End Date** | When sign-ups close, relative to the event, such as 7 days before. |
+| **Age Restriction** | All ages, or limit the event to adults. |
+| **Will this event charge for tickets?** | **Free only:** every tier is free, with no payment setup. **Paid:** sell tickets, mixing free and paid tiers. You connect your Razorpay account before building tiers. |
 
-- **Brand logo:** shown on the registration page
-- **Brand name:** the name shown as the organizer on registration messages
+Ticket revenue goes straight to your own account. Fast Party never holds the money. Organizations set up payments once in [organization setup](/organizations/setup#payments).
 
-### Age restriction
+## Tiers
 
-Turn on the **18+ restriction** to ask attendees to confirm they're 18 or over when they register.
-
-### Payment account
-
-To sell paid tickets, link your payment account first: Razorpay in India or Stripe in the US. Ticket revenue goes straight to you. Fast Party never holds the money. Organizations set this up once in [organization setup](/organizations/setup#payments).
-
-## Ticket types
-
-Create as many ticket types as you need, such as General Admission and VIP, or Early Bird and Standard.
+Tiers are your ticket types, such as a 3-day pass, a single-day pass and a family pass. Click **Add New Tier**:
 
 | Field | Description |
-|-------|-------------|
-| **Label** | The ticket name attendees see, such as "General Admission" |
-| **Price** | Free or paid. For paid tickets, enter the price. |
-| **Capacity** | How many tickets of this type are available |
-| **Notes** | Optional notes shown to attendees, such as "Includes dinner" |
-| **Badge color** | A color used to spot this ticket type at a glance on the dashboard and at check-in |
+| --- | --- |
+| **Label Name** | Required, up to 20 characters. The name attendees see. |
+| **Badge Colour** | Required. Used to spot this tier at a glance on the dashboard and at check-in. |
+| **Capacity** | Required. How many places this tier has. |
+| **Price** | For paid events. |
+| **Notes** | Optional. What's included, such as "Dinner included". |
 
-## Opening and pausing registration
+Each tier shows its capacity and seats left.
 
-Share the registration link to open registration. You can **pause** registration at any time, for example while you review a batch of requests, and **resume** it when you're ready.
+## Bring people in
 
-## Registration dashboard
+- **Share Invite:** share the registration link on WhatsApp, email, your website or social media.
+- **Add Attendees:** add people yourself.
 
-The registration dashboard gives you a live overview:
+## Review attendees
 
-- Total registrations received
-- Approved, declined and pending counts
-- Revenue collected for paid tickets
-- A breakdown by ticket type
+Open the **Attendees** tab. Filter by Invited, Registration, To Review, Approved or Rejected, and see **where they came from**: the link, or your own invitation.
 
-## Managing attendees
+<Frame>
+  <img
+    src="/images/ev-registration-review.png"
+    alt="The To Review list with Approve and Reject buttons next to each attendee and an Approve All link"
+    style={{ borderRadius: "8px" }}
+    title="To Review"
+  />
+</Frame>
 
-The attendee list shows every registration with the person's name, ticket type, payment status and registration date.
+- **Approve** or **Reject** each person. They're notified either way, and approved attendees get their ticket.
+- **Approve All** confirms everyone waiting at once.
+- Each attendee shows their number, tier and status.
 
-| Action | What it does |
-|--------|-------------|
-| **Approve** | Confirms the attendee. They're notified and receive their ticket. |
-| **Decline** | Declines the request. The person is notified. |
-| **Approve all pending** | Approves every pending request at once |
-| **Decline in bulk** | Declines several requests at once |
+Every confirmed attendee gets a ticket with a QR code for the door. See [Attendee Check-In](/public-events/registrant-check-in).
 
-Approve and decline apply when the event uses approval. With direct registration, attendees are confirmed as soon as they register.
-
-## Attendee tickets
-
-Every confirmed attendee receives a ticket with a QR code, which is scanned at the door. See [Attendee Check-In](/public-events/registrant-check-in).
-
-<Note>
-  Attendees at a Registration Event don't receive personal invitations. They find the event through the registration link you share and register themselves.
-</Note>
+<Tip>
+  Let [your connected AI](/platforms#connect-your-ai) do the review: "Approve every pending registration for Shruthi 2027 from the 2001 batch."
+</Tip>
