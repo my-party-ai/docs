@@ -183,12 +183,6 @@
               "organizations/dashboard",
               "data-migration"
             ]
-          },
-          {
-            "group": "Circles",
-            "pages": [
-              "recurring-events/overview"
-            ]
           }
         ]
       },
@@ -221,7 +215,15 @@
         ]
       },
       {
-        "tab": "Circles"
+        "tab": "Circles",
+        "groups": [
+          {
+            "group": "Circles",
+            "pages": [
+              "recurring-events/overview"
+            ]
+          }
+        ]
       }
     ],
     "global": {
