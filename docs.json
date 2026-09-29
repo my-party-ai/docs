@@ -171,7 +171,7 @@
         ]
       },
       {
-        "tab": "Circles & Organizations",
+        "tab": "Organizations",
         "groups": [
           {
             "group": "Organizations",
@@ -219,6 +219,9 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Circles"
       }
     ],
     "global": {
