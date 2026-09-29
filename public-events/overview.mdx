@@ -4,15 +4,26 @@ description: "Share a registration link, sell tickets if you want to, approve si
 icon: "ticket"
 ---
 
-A **Registration Event** is for events where people sign up through a link rather than receiving a personal invitation: conferences, reunions, tournaments, workshops, fundraisers and ticketed shows. The people who register are your **attendees**.
+A **Registration Event** is for events where people sign up through a link rather than receiving a personal invitation: conferences, reunions, festivals, tournaments, workshops, fundraisers and ticketed shows. The people who register are your **attendees**.
+
+<Frame>
+  <img
+    src="/images/ev-registration-event-page-1.png"
+    alt="Ev Registration Event Page 1"
+    style={{ borderRadius: "8px" }}
+    title="Ev Registration Event Page 1"
+  />
+</Frame>
+
+On a Registration Event, the **Registration** button takes the place of **Invite**. It opens your registration setup, tiers and attendee list.
 
 ## Approval or direct registration
 
-When you create a Registration Event, you choose how registrations work:
+When you set up registration, you choose how it works:
 
 <CardGroup cols={2}>
   <Card title="Approval required" icon="user-check">
-    People request a spot and you approve or decline each one. If the event is priced, attendees pay once you've approved them. Best when you want to vet who comes.
+    People request a spot and answer your question, and you approve or reject each one. If the event is paid, attendees pay once you've approved them. Best when you want to vet who comes.
   </Card>
 
   <Card title="Direct registration" icon="bolt">
@@ -24,39 +35,32 @@ When you create a Registration Event, you choose how registrations work:
 
 <Steps>
   <Step title="Create the event">
-    Click **New Event**, choose **Registration Event**, and add the name, dates and venue, just as you would for any event. Add a [banner and event template](/events/banner-and-templates): they're the first thing people see on your registration page.
+    Click **Create Event**, choose **Registration Event**, and add the name, dates and venue, just as you would for any event. Add a [banner and event template](/events/banner-and-templates): they're the first thing people see on your registration page. Multi-day events can have a template for each day.
   </Step>
   <Step title="Set up registration">
-    In the event's settings, choose approval or direct registration and set:
-
-    - **Capacity:** the most people who can register
-    - **Registration end date:** when sign-ups close
-    - **Branding:** the logo and name shown on the registration page
-    - **Age restriction**, if the event needs one
-
-    Your event can't be shared until registration setup is finished.
+    Open **Registration** and click the pencil on **Settings**. Choose approval or direct registration, the question for registrants, when registration closes, any age restriction, and whether the event is free or paid. Your event can't be shared until this is done.
   </Step>
-  <Step title="Add tickets">
-    Create one or more ticket types, free or paid, each with its own price, capacity and badge color. For paid tickets, link your payment account: Razorpay in India or Stripe in the US. Payments go straight to you. Fast Party never holds the money.
+  <Step title="Add tiers">
+    Create one or more tiers, such as a 3-day pass, a day pass and a family pass, each with its own capacity and badge color, and a price if the event is paid. Paid events use your own Razorpay (India) or Stripe (US) account. Fast Party never holds the money.
   </Step>
-  <Step title="Open registration and share the link">
-    Open registration and share the link on WhatsApp, email, your website or social media.
+  <Step title="Share the link">
+    Click **Share Invite** and share the registration link on WhatsApp, email, your website or social media. You can also **Add Attendees** yourself.
   </Step>
 </Steps>
 
 ## Managing registrations
 
-The **registration dashboard** shows total registrations, revenue and a breakdown by ticket type, so you can see how the event is filling up.
+The Registration page counts everyone who's registered, waiting for review, approved and rejected, and shows how much capacity is used.
 
-- **Approve or decline** requests one at a time, or approve all pending requests at once (approval mode)
-- **Pause registration** to stop new sign-ups for a while, and **resume** it when you're ready
-- Keep an eye on capacity as tickets sell
+- **Approve** or **Reject** requests one at a time, or **Approve All** at once
+- **Pause Registration** to stop new sign-ups for a while, and resume when you're ready
+- See where each attendee came from: your link, or your own invitation
 
-Like every event, you set it up on the Event Page and run it from the [Event Dashboard](/private-events/event-dashboard).
+Like every event, you set it up on the Event Page and run it from the [Event Dashboard](/private-events/event-dashboard), which shows registrations by tier, revenue and check-ins.
 
 ## On the day: QR check-in
 
-Every confirmed attendee gets a ticket with a QR code. At the door, you or your team scan it to check them in, and the dashboard shows who has arrived.
+Every confirmed attendee gets a ticket with a QR code. At the door, you or your team scan it to check them in. If someone can't find theirs, check them in by hand from the attendee list.
 
 This is different from [Check-In](/private-events/self-check-in) at an RSVP Event, where guests check themselves in.
 
@@ -88,7 +92,7 @@ Registration Events use the same [event tools](/events/event-tools) as any other
 
 <CardGroup cols={2}>
   <Card title="Registration Setup and Management" icon="clipboard-list" href="/public-events/registration-management">
-    Tickets, capacity, branding, approvals and the registration dashboard.
+    Settings, tiers, approvals and the attendee list.
   </Card>
 
   <Card title="Attendee Check-In" icon="clipboard-check" href="/public-events/registrant-check-in">
