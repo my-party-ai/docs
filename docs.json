@@ -15,18 +15,14 @@
   "navbar": {
     "links": [
       {
-        "label": "App",
-        "href": "https://app.fastparty.ai"
-      },
-      {
-        "label": "Support",
-        "href": "mailto:support@fastparty.ai"
+        "href": "mailto:contact@fastparty.ai",
+        "label": "Contact"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Get Started Free",
-      "href": "https://app.fastparty.ai/signup"
+      "href": "https://app.fastparty.ai/"
     }
   },
   "navigation": {
