@@ -58,7 +58,10 @@
             "icon": "envelope-open-text",
             "pages": [
               "guests/overview",
-              "guests/reply-to-an-invitation"
+              "guests/reply-to-an-invitation",
+              "guests/register-for-an-event",
+              "guests/your-qr-pass",
+              "guests/being-in-a-circle"
             ]
           }
         ]
