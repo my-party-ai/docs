@@ -51,6 +51,19 @@
         ]
       },
       {
+        "tab": "For Guests",
+        "groups": [
+          {
+            "group": "For Guests",
+            "icon": "envelope-open-text",
+            "pages": [
+              "guests/overview",
+              "guests/reply-to-an-invitation"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Antsy & AI",
         "groups": [
           {
