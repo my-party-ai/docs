@@ -1,6 +1,6 @@
 ---
 title: "Event Dashboard"
-description: "Where you run your event: health score, RSVPs or registrations, tasks, check-ins, alerts and event broadcasts, in one view."
+description: "Where hosts run an event: the health score and how it's worked out, RSVPs or registrations with projections for your caterer, tasks, the timeline, alerts, travel and stay grouping, and event broadcasts. Web only, best on a desktop or laptop."
 icon: "chart-line"
 ---
 
@@ -16,40 +16,99 @@ You set an event up on the Event Page. You run it from the **Event Dashboard**. 
 </Frame>
 
 <Note>
-  The Event Dashboard is for **hosts and co-hosts only**, on a laptop or tablet browser. Guests never see it.
+  The Event Dashboard is for **hosts and co-hosts only**. Guests never see it. For now it's available **on the web only** at [app.fastparty.ai](https://app.fastparty.ai), and works best on a **desktop or laptop**. It isn't in the mobile app yet.
 </Note>
 
 ## The left column: how the event is doing
 
 | Panel | What it shows |
 | --- | --- |
-| **Event Health Score** | A score out of 100 for how ready the event is, with the days to go. Below it: revenue, check-ins and how much of your task list is done. |
-| **RSVPs** or **Registrations** | Your headcount. For a Registration Event, registrations against capacity, broken down by tier. |
-| **Guest Preference** | What guests have chosen to eat and drink so far, next to projections for the full guest list. |
+| **Event Health Score** | A score out of 100 for how ready the event is, with its status and the days to go. Below it, the areas that feed the score, such as RSVP, Guest Preferences and Tasks. [How the score works ↓](#event-health-score) |
+| **Guest RSVP'd** or **Registrations** | Your headcount so far (**Actuals**), next to your own estimate (**Projections**). For a Registration Event, registrations against capacity, broken down by tier. |
+| **Guest Preference** | What guests have chosen to eat and drink so far (**Actuals**), next to your estimate for the full guest list (**Projections**). |
 | **Revenue** | For paid events, estimated and collected. |
 | **Check-In** | How many have arrived. |
-| **Tasks** | Created, in progress and completed. |
+| **Tasks** | How many tasks are in progress and how many are completed. |
 
 Click the expand icon on any panel for the full view.
 
+### Share your numbers with your caterer
+
+On **Guest RSVP'd** and **Guest Preference**, add your own estimate under **Projections**: how many you expect, and what they're likely to eat and drink. Then click the **share** button next to the panel. It makes a PDF you can send to your caterer.
+
 ## Multi-day events
 
-For an event that runs over several days, filter the whole dashboard by **All Days** or a single day, such as **Day 1**.
+For an event that runs over several days, filter the whole dashboard by **All Days** or a single day, such as **Day 1**. The Timeline then shows that day's activities.
 
 ## The tabs
 
 | Tab | What's there |
 | --- | --- |
-| **Timeline** | Every activity from your [Event Schedule](/private-events/event-schedule) in order, with what's up next and how many are checked in to each. |
-| **Attendees** / **Guests** | Everyone on the event and their status. |
-| **Alerts** | Things that need your attention, sorted into **Critical**, **Informational** and **Recommendation**. |
-| **Travel & Stay** | Guests' arrivals and rooms, for planning pickups. [Travel & Stay →](/private-events/travel-stay) |
-| **Mini Apps** | Every [event tool](/events/event-tools) with its status at a glance: activities scheduled, preferences saved, contributions received, tasks created. |
-| **Custom Message** | Send an event broadcast to your guests. |
+| **Timeline** | The activities from your [Event Schedule](/private-events/event-schedule), in order and by day, with what's up next. To change an activity, edit it in Event Schedule on the Event Page. |
+| **Guest** / **Attendees** | Everyone on the event and their reply, with party size and food choices. |
+| **Alerts** | Things that need your attention, sorted into **Critical**, **Informational** and **Recommendation**. **New** marks the ones you haven't seen yet. |
+| **Travel & Stay** | Guests' travel details, grouped into pickups and rooms you can share with your travel and hotel partners. See **Travel & Stay** below. |
+| **Event tools** | Each [event tool](/events/event-tools) with its status at a glance. Click **View** on a tool to open it. (Currently labelled **Mini Apps**; it's being renamed.) |
+| **Custom Message** | Send an event broadcast to your guests. [More below ↓](#event-broadcast) |
+
+## Event Health Score
+
+The score is a number from 0 to 100 that shows how ready your event is.
+
+### How it's worked out
+
+<Steps>
+  <Step title="Each area gets its own score">
+    Every area starts at 100 and loses points for what's still open:
+
+    | Area | Loses points for |
+    | --- | --- |
+    | **RSVP** | Guests who haven't replied, or replied Maybe |
+    | **Guest Preferences** | Guests who haven't shared their food and drink choices (only when [Guest Preferences](/private-events/food-beverage) is published) |
+    | **Tasks** | Tasks that are incomplete, overdue or unassigned, with more for overdue high-priority tasks |
+    | **Vendors** | Vendors who haven't confirmed or have declined, with more for core vendors such as the venue, catering and decor |
+    | **Timeline** | Schedule activities that aren't published, need a review, or fall outside the event's time |
+
+    A **Registration Event** looks at **Revenue** (collected against your target), **Check-In** (checked in against approved), **Tasks** and **Vendors** instead.
+  </Step>
+  <Step title="Open items count for more as the day gets closer">
+    The same open items cost more points as the event approaches. Ten pending replies matter more the week before than a month out.
+  </Step>
+  <Step title="The areas are averaged">
+    The areas are combined into one score, with tasks and replies counting most. **An area your event doesn't use is left out**, so an event with no vendors isn't marked down for it.
+  </Step>
+</Steps>
+
+### What the status means
+
+| Score | Status |
+| --- | --- |
+| 90 or more | **Event Ready** |
+| 75 or more | **On Track** |
+| 50 or more | **Needs Attention** |
+| 25 or more | **At Risk** |
+| Above 0 | **Critical** |
+| 0 | **Not Started** |
+
+<Tip>
+  To raise the score, close what's still open: follow up on pending replies, ask guests for their food choices, and finish or assign overdue tasks.
+</Tip>
+
+The score refreshes every few minutes, and only when something on the event changes.
+
+## Travel & Stay
+
+What guests share in [Travel & Stay](/private-events/travel-stay) comes together on this tab:
+
+| Part | What it does |
+| --- | --- |
+| **Guest Response** | What each guest sent: arrival, flight, luggage, room and departure. |
+| **Run Jobs** | Groups the responses for you. Run them all at once with **Run All Jobs**, or one at a time: **Arrival Grouping** (by flight, date and time), **Departure Grouping** (by date and terminal), **Vehicle Sizing** (the vehicle each pickup needs, from people and luggage) and **Room Requirement Analysis** (room types and dates). |
+| **Requirements** | The results: **Vehicle Requirements** for arrivals and departures, and **Room Requirements** by date. Click the download icon on each to share it with your travel and hotel partners. |
 
 ## Event broadcast
 
-On the **Custom Message** tab, click **Send Broadcast** to message all your guests at once: a change of plan, a reminder of what to bring, or a thank-you afterward.
+On the **Custom Message** tab, click **Send Broadcast** to message everyone on the event at once: a change of plan, a reminder of what to bring, or a thank-you afterward.
 
 <Frame>
   <img
@@ -60,10 +119,10 @@ On the **Custom Message** tab, click **Send Broadcast** to message all your gues
   />
 </Frame>
 
-Add a subject and your message, attach an image if you like, and click **Continue to preview**. Guests are notified on their own channels: WhatsApp, email, push and in-app. [How broadcasts work →](/organizations/broadcasts#event-broadcasts)
+Add a subject and your message, attach an image if you like, and click **Continue to preview**. Guests are notified on every channel: WhatsApp, email, push and in-app, just like an organization broadcast. [How broadcasts work →](/organizations/broadcasts#event-broadcasts)
 
 For news you want guests to find again later, post it on the [event wall](/notifications/event-wall) instead. It stays on the Event Page.
 
 <Tip>
-  Keep the dashboard open on a tablet or laptop during the event, so you can see arrivals, check-ins and alerts as they happen.
+  Keep the dashboard open on a laptop or desktop during the event, so you can see arrivals, check-ins and alerts as they happen.
 </Tip>
