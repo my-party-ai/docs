@@ -6,14 +6,17 @@ icon: "users"
 
 On the Event Page, click **Invite**. This is your guest list: everyone you've invited, how they replied, and how many people they're bringing.
 
-<Frame>
-  <img
-    src="/images/ev-guests-rsvp-1.png"
-    alt="Ev Guests Rsvp 1"
-    style={{ borderRadius: "8px" }}
-    title="Ev Guests Rsvp 1"
-  />
-</Frame>
+<div className="hidden md:block">
+  <Frame>
+    <img src="/images/app/rsvps-desktop.webp" alt="The guest list: each guest's reply and headcount, with All, Yes, No, Maybe and Pending filters" style={{ borderRadius: "8px" }} />
+  </Frame>
+</div>
+
+<div className="block md:hidden">
+  <Frame>
+    <img src="/images/app/rsvps-mobile.webp" alt="The guest list: each guest's reply and headcount, with All, Yes, No, Maybe and Pending filters" style={{ borderRadius: "8px", maxWidth: "360px", margin: "0 auto" }} />
+  </Frame>
+</div>
 
 ## Invite guests
 
@@ -29,7 +32,7 @@ There are two ways in, and many events use both.
   </Card>
 </CardGroup>
 
-For an event in a circle, every member is invited when you make the event live. You can still add people outside the circle afterwards. [Events in a circle →](/circles/circle-events)
+For an event in a circle, every member is invited when you make the event live. You can also invite people outside the circle from **Invite**. [Events in a circle →](/circles/circle-events)
 
 ## What guests receive
 

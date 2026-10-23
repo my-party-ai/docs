@@ -14,15 +14,23 @@ Tap **View Invitation** in the message. It opens the event page — the date, ti
 
 Your reply card is on the event page.
 
-{/* Screenshot to add: images/guests/reply-card.png — the reply card: You're Invited – will you be joining? Yes, Maybe or No */}
+<div className="hidden md:block">
+  <Frame>
+    <img src="/images/app/guest-rsvp-desktop.webp" alt="A guest's event page: the event details on the left and the reply card on the right, with Yes, Maybe or No and who's coming with you" style={{ borderRadius: "8px" }} />
+  </Frame>
+</div>
+
+<div className="block md:hidden">
+  <Frame>
+    <img src="/images/app/guest-rsvp-mobile.webp" alt="A guest's event page on a phone, with the reply card: Yes, Maybe or No and who's coming with you" style={{ borderRadius: "8px", maxWidth: "360px", margin: "0 auto" }} />
+  </Frame>
+</div>
 
 You can change your reply any time later, so pick what's true right now.
 
 ## 3. Tell the host who's coming with you
 
 When you pick **Yes** or **Maybe**, the card asks **Anyone coming with you?** Add the number of **Adults** and **Children** coming with you — not counting yourself — then tap **Confirm**.
-
-{/* Screenshot to add: images/guests/anyone-coming-with-you.png — Anyone coming with you? with Adults and Children, and Confirm */}
 
 The card then shows your reply and the total, including you.
 

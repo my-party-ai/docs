@@ -10,9 +10,17 @@ icon: "star-half-stroke"
 
 Feedback Corner is a post-event feature that turns "How did it go?" into structured, usable insight. After your event ends, Fast Party builds a custom feedback form tailored to what actually happened — the agenda you ran, the food preferences you collected — and sends it to your guests or registered attendees. Once responses come in, you get a clear results view with an AI-written summary.
 
-<Frame>
-  <img src="/assets/PrivateEvents/feedback-corner.png" alt="Feedback Corner" style={{ borderRadius: "8px", width: "80%", display: "block", margin: "0 auto" }} />
-</Frame>
+<div className="hidden md:block">
+  <Frame>
+    <img src="/images/app/feedback-desktop.webp" alt="Feedback Corner responses: the average rating and how the scores break down" style={{ borderRadius: "8px" }} />
+  </Frame>
+</div>
+
+<div className="block md:hidden">
+  <Frame>
+    <img src="/images/app/feedback-mobile.webp" alt="Feedback Corner responses: the average rating and how the scores break down" style={{ borderRadius: "8px", maxWidth: "360px", margin: "0 auto" }} />
+  </Frame>
+</div>
 
 <Note>
   Feedback Corner generates the form **after** the event, using what really happened — not a generic template written in advance. That's why the questions feel specific to the event your guests just attended.
