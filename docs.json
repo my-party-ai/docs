@@ -64,7 +64,8 @@
               "guests/register-for-an-event",
               "guests/your-event-page",
               "guests/your-qr-pass",
-              "guests/being-in-a-circle"
+              "guests/being-in-a-circle",
+              "guests/your-organization-page"
             ]
           }
         ]
@@ -105,12 +106,28 @@
             "group": "Organizations",
             "pages": [
               "organizations/overview",
-              "organizations/org-page",
               "organizations/setup",
-              "organizations/admins-and-managers",
-              "organizations/circles-and-events",
-              "organizations/dashboard",
               "data-migration"
+            ]
+          },
+          {
+            "group": "Settings",
+            "pages": [
+              "organizations/org-page",
+              "organizations/members-and-circles",
+              "organizations/admins-and-managers",
+              "notifications/your-channels",
+              "organizations/payments"
+            ]
+          },
+          {
+            "group": "Admin Dashboard",
+            "pages": [
+              "organizations/dashboard",
+              "organizations/circles-and-events",
+              "organizations/org-members",
+              "organizations/attention",
+              "organizations/broadcasts"
             ]
           }
         ]
@@ -232,15 +249,7 @@
             "group": "Sending Messages",
             "icon": "paper-plane",
             "pages": [
-              "notifications/event-wall",
-              "organizations/broadcasts"
-            ]
-          },
-          {
-            "group": "For Organizations",
-            "icon": "building",
-            "pages": [
-              "notifications/your-channels"
+              "notifications/event-wall"
             ]
           }
         ]
