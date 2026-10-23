@@ -43,9 +43,11 @@
             "group": "Guides by Organization Type",
             "pages": [
               "get-started/reunion",
-              "get-started/coterie",
+              "get-started/quorum",
+              "get-started/pavilion",
+              "get-started/crew",
               "get-started/jubila",
-              "get-started/belvedere"
+              "get-started/grandstand"
             ]
           }
         ]
@@ -103,6 +105,7 @@
             "group": "Organizations",
             "pages": [
               "organizations/overview",
+              "organizations/org-page",
               "organizations/setup",
               "organizations/admins-and-managers",
               "organizations/circles-and-events",
@@ -252,5 +255,17 @@
       "instagram": "https://instagram.com/fastpartyai",
       "linkedin": "https://linkedin.com/company/fastparty"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/get-started/coterie",
+      "destination": "/get-started/pavilion",
+      "permanent": true
+    },
+    {
+      "source": "/get-started/belvedere",
+      "destination": "/get-started/grandstand",
+      "permanent": true
+    }
+  ]
 }
