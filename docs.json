@@ -34,6 +34,7 @@
             "group": "Get Started",
             "pages": [
               "index",
+              "get-started/explore",
               "get-started/how-it-works",
               "get-started/quickstart",
               "platforms"
