@@ -34,7 +34,7 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "get-started/explore",
+              "get-started/tour",
               "get-started/how-it-works",
               "get-started/quickstart",
               "platforms"
@@ -275,6 +275,11 @@
     {
       "source": "/get-started/belvedere",
       "destination": "/get-started/grandstand",
+      "permanent": true
+    },
+    {
+      "source": "/get-started/explore",
+      "destination": "/get-started/tour",
       "permanent": true
     }
   ]
